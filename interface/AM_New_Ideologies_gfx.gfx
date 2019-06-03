@@ -1,0 +1,2041 @@
+spriteTypes = {	
+
+spriteType = {
+		name = "GFX_ideology_VCT_catholicism"
+		texturefile = "gfx/interface/ideologies/monarchism/VCT_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TIB_buddhism"
+		texturefile = "gfx/interface/ideologies/monarchism/TIB_monarchism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_theocratic_group"
+		texturefile = "gfx/interface/ideologies/theocratic_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_buddhism"
+		texturefile = "gfx/interface/ideologies/theocratic/buddhism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_confucianism"
+		texturefile = "gfx/interface/ideologies/theocratic/confucianism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_catholicism"
+		texturefile = "gfx/interface/ideologies/theocratic/catholicism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_protestantism"
+		texturefile = "gfx/interface/ideologies/theocratic/catholicism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_hinduism"
+		texturefile = "gfx/interface/ideologies/theocratic/hinduism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_sunni_islam"
+		texturefile = "gfx/interface/ideologies/theocratic/islamism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_shia_islam"
+		texturefile = "gfx/interface/ideologies/theocratic/islamism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_judaism"
+		texturefile = "gfx/interface/ideologies/theocratic/judaism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_lutheranism"
+		texturefile = "gfx/interface/ideologies/theocratic/lutheranism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_orthodoxism"
+		texturefile = "gfx/interface/ideologies/theocratic/orthodoxism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_paganism"
+		texturefile = "gfx/interface/ideologies/theocratic/paganism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_shintoism"
+		texturefile = "gfx/interface/ideologies/theocratic/shintoism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_sikhism"
+		texturefile = "gfx/interface/ideologies/theocratic/sikhism_ideology.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_taoism"
+		texturefile = "gfx/interface/ideologies/theocratic/taoism_ideology.dds"
+	}
+	
+	### PERSONALIZED
+	
+	### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_ENG_fascism_group"
+		texturefile = "gfx/interface/ideologies/ENG/ENG_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ENG_communism_group"
+		texturefile = "gfx/interface/ideologies/ENG/ENG_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ENG_neutrality_group"
+		texturefile = "gfx/interface/ideologies/ENG/ENG_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ENG_conservatism"
+		texturefile = "gfx/interface/ideologies/ENG/ENG_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ENG_socialism"
+		texturefile = "gfx/interface/ideologies/ENG/ENG_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ENG_liberalism"
+		texturefile = "gfx/interface/ideologies/ENG/ENG_liberalism.dds"
+	}
+	
+	##USSR
+	
+	spriteType = {
+		name = "GFX_ideology_SOV_fascism_group"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SOV_communism_group"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SOV_neutrality_group"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SOV_conservatism"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SOV_socialism"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SOV_liberalism"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_liberalism.dds"
+	}
+	
+	### RUSSIA
+	
+	spriteType = {
+		name = "GFX_ideology_RUS_fascism_group"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RUS_communism_group"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RUS_neutrality_group"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RUS_conservatism"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RUS_socialism"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RUS_liberalism"
+		texturefile = "gfx/interface/ideologies/SOV/SOV_liberalism.dds"
+	}
+	
+		##USA
+	
+	spriteType = {
+		name = "GFX_ideology_USA_fascism_group"
+		texturefile = "gfx/interface/ideologies/USA/USA_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_USA_communism_group"
+		texturefile = "gfx/interface/ideologies/USA/USA_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_USA_neutrality_group"
+		texturefile = "gfx/interface/ideologies/USA/USA_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_USA_conservatism"
+		texturefile = "gfx/interface/ideologies/USA/USA_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_USA_socialism"
+		texturefile = "gfx/interface/ideologies/USA/USA_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_USA_liberalism"
+		texturefile = "gfx/interface/ideologies/USA/USA_liberalism.dds"
+	}
+	
+	## JAPAN
+	
+	spriteType = {
+		name = "GFX_ideology_JAP_fascism_group"
+		texturefile = "gfx/interface/ideologies/JAP/JAP_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_JAP_communism_group"
+		texturefile = "gfx/interface/ideologies/JAP/JAP_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_JAP_neutrality_group"
+		texturefile = "gfx/interface/ideologies/JAP/JAP_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_JAP_conservatism"
+		texturefile = "gfx/interface/ideologies/JAP/JAP_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_JAP_socialism"
+		texturefile = "gfx/interface/ideologies/JAP/JAP_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_JAP_liberalism"
+		texturefile = "gfx/interface/ideologies/JAP/JAP_liberalism.dds"
+	}
+	
+	## GER
+	
+	spriteType = {
+		name = "GFX_ideology_GER_fascism_group"
+		texturefile = "gfx/interface/ideologies/GER/GER_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GER_communism_group"
+		texturefile = "gfx/interface/ideologies/GER/GER_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GER_neutrality_group"
+		texturefile = "gfx/interface/ideologies/GER/GER_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GER_conservatism"
+		texturefile = "gfx/interface/ideologies/GER/GER_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GER_socialism"
+		texturefile = "gfx/interface/ideologies/GER/GER_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GER_liberalism"
+		texturefile = "gfx/interface/ideologies/GER/GER_liberalism.dds"
+	}
+	
+	## ITA
+	
+	spriteType = {
+		name = "GFX_ideology_ITA_fascism_group"
+		texturefile = "gfx/interface/ideologies/ITA/ITA_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ITA_communism_group"
+		texturefile = "gfx/interface/ideologies/ITA/ITA_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ITA_neutrality_group"
+		texturefile = "gfx/interface/ideologies/ITA/ITA_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ITA_conservatism"
+		texturefile = "gfx/interface/ideologies/ITA/ITA_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ITA_socialism"
+		texturefile = "gfx/interface/ideologies/ITA/ITA_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ITA_liberalism"
+		texturefile = "gfx/interface/ideologies/ITA/ITA_liberalism.dds"
+	}
+	
+	## FRA
+	
+	spriteType = {
+		name = "GFX_ideology_FRA_fascism_group"
+		texturefile = "gfx/interface/ideologies/FRA/FRA_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FRA_communism_group"
+		texturefile = "gfx/interface/ideologies/FRA/FRA_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FRA_neutrality_group"
+		texturefile = "gfx/interface/ideologies/FRA/FRA_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FRA_conservatism"
+		texturefile = "gfx/interface/ideologies/FRA/FRA_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FRA_socialism"
+		texturefile = "gfx/interface/ideologies/FRA/FRA_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FRA_liberalism"
+		texturefile = "gfx/interface/ideologies/FRA/FRA_liberalism.dds"
+	}
+	
+		### ALBANIA
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_fascism_group"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_communism_group"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_neutrality_group"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_conservatism"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_socialism"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_liberalism"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_ARG_fascism_group"
+		texturefile = "gfx/interface/ideologies/ARG/ARG_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ARG_communism_group"
+		texturefile = "gfx/interface/ideologies/ARG/ARG_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ARG_neutrality_group"
+		texturefile = "gfx/interface/ideologies/ARG/ARG_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ARG_conservatism"
+		texturefile = "gfx/interface/ideologies/ARG/ARG_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ARG_socialism"
+		texturefile = "gfx/interface/ideologies/ARG/ARG_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ARG_liberalism"
+		texturefile = "gfx/interface/ideologies/ARG/ARG_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_AUS_fascism_group"
+		texturefile = "gfx/interface/ideologies/AUS/AUS_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_AUS_communism_group"
+		texturefile = "gfx/interface/ideologies/AUS/AUS_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_AUS_neutrality_group"
+		texturefile = "gfx/interface/ideologies/AUS/AUS_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_AUS_conservatism"
+		texturefile = "gfx/interface/ideologies/AUS/AUS_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_AUS_socialism"
+		texturefile = "gfx/interface/ideologies/AUS/AUS_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_AUS_liberalism"
+		texturefile = "gfx/interface/ideologies/AUS/AUS_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_BEL_fascism_group"
+		texturefile = "gfx/interface/ideologies/BEL/BEL_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BEL_communism_group"
+		texturefile = "gfx/interface/ideologies/BEL/BEL_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BEL_neutrality_group"
+		texturefile = "gfx/interface/ideologies/BEL/BEL_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BEL_conservatism"
+		texturefile = "gfx/interface/ideologies/BEL/BEL_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BEL_socialism"
+		texturefile = "gfx/interface/ideologies/BEL/BEL_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BEL_liberalism"
+		texturefile = "gfx/interface/ideologies/BEL/BEL_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_fascism_group"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_communism_group"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_neutrality_group"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_conservatism"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_socialism"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_liberalism"
+		texturefile = "gfx/interface/ideologies/ALB/ALB_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_BOL_fascism_group"
+		texturefile = "gfx/interface/ideologies/BOL/BOL_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BOL_communism_group"
+		texturefile = "gfx/interface/ideologies/BOL/BOL_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BOL_neutrality_group"
+		texturefile = "gfx/interface/ideologies/BOL/BOL_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BOL_conservatism"
+		texturefile = "gfx/interface/ideologies/BOL/BOL_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BOL_socialism"
+		texturefile = "gfx/interface/ideologies/BOL/BOL_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BOL_liberalism"
+		texturefile = "gfx/interface/ideologies/BOL/BOL_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_BRA_fascism_group"
+		texturefile = "gfx/interface/ideologies/BRA/BRA_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BRA_communism_group"
+		texturefile = "gfx/interface/ideologies/BRA/BRA_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BRA_neutrality_group"
+		texturefile = "gfx/interface/ideologies/BRA/BRA_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BRA_conservatism"
+		texturefile = "gfx/interface/ideologies/BRA/BRA_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BRA_socialism"
+		texturefile = "gfx/interface/ideologies/BRA/BRA_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BRA_liberalism"
+		texturefile = "gfx/interface/ideologies/BRA/BRA_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_BUL_fascism_group"
+		texturefile = "gfx/interface/ideologies/BUL/BUL_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BUL_communism_group"
+		texturefile = "gfx/interface/ideologies/BUL/BUL_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BUL_neutrality_group"
+		texturefile = "gfx/interface/ideologies/BUL/BUL_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BUL_conservatism"
+		texturefile = "gfx/interface/ideologies/BUL/BUL_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BUL_socialism"
+		texturefile = "gfx/interface/ideologies/BUL/BUL_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BUL_liberalism"
+		texturefile = "gfx/interface/ideologies/BUL/BUL_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_CAN_fascism_group"
+		texturefile = "gfx/interface/ideologies/CAN/CAN_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CAN_communism_group"
+		texturefile = "gfx/interface/ideologies/CAN/CAN_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CAN_neutrality_group"
+		texturefile = "gfx/interface/ideologies/CAN/CAN_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CAN_conservatism"
+		texturefile = "gfx/interface/ideologies/CAN/CAN_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CAN_socialism"
+		texturefile = "gfx/interface/ideologies/CAN/CAN_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CAN_liberalism"
+		texturefile = "gfx/interface/ideologies/CAN/CAN_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_CHI_fascism_group"
+		texturefile = "gfx/interface/ideologies/CHI/CHI_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CHI_communism_group"
+		texturefile = "gfx/interface/ideologies/CHI/CHI_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CHI_neutrality_group"
+		texturefile = "gfx/interface/ideologies/CHI/CHI_neutrality.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_ideology_CHI_socialism"
+		texturefile = "gfx/interface/ideologies/CHI/CHI_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CHI_liberalism"
+		texturefile = "gfx/interface/ideologies/CHI/CHI_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_CHL_fascism_group"
+		texturefile = "gfx/interface/ideologies/CHL/CHL_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CHL_communism_group"
+		texturefile = "gfx/interface/ideologies/CHL/CHL_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CHL_neutrality_group"
+		texturefile = "gfx/interface/ideologies/CHL/CHL_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CHL_conservatism"
+		texturefile = "gfx/interface/ideologies/CHL/CHL_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CHL_socialism"
+		texturefile = "gfx/interface/ideologies/CHL/CHL_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CHL_liberalism"
+		texturefile = "gfx/interface/ideologies/CHL/CHL_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_COL_fascism_group"
+		texturefile = "gfx/interface/ideologies/COL/COL_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_COL_communism_group"
+		texturefile = "gfx/interface/ideologies/COL/COL_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_COL_neutrality_group"
+		texturefile = "gfx/interface/ideologies/COL/COL_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_COL_conservatism"
+		texturefile = "gfx/interface/ideologies/COL/COL_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_COL_socialism"
+		texturefile = "gfx/interface/ideologies/COL/COL_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_COL_liberalism"
+		texturefile = "gfx/interface/ideologies/COL/COL_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_fascism_group"
+		texturefile = "gfx/interface/ideologies/DEN/DEN_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_communism_group"
+		texturefile = "gfx/interface/ideologies/DEN/DEN_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_neutrality_group"
+		texturefile = "gfx/interface/ideologies/DEN/DEN_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_conservatism"
+		texturefile = "gfx/interface/ideologies/DEN/DEN_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_socialism"
+		texturefile = "gfx/interface/ideologies/DEN/DEN_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_liberalism"
+		texturefile = "gfx/interface/ideologies/DEN/DEN_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_ECU_fascism_group"
+		texturefile = "gfx/interface/ideologies/ECU/ECU_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ECU_communism_group"
+		texturefile = "gfx/interface/ideologies/ECU/ECU_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ECU_neutrality_group"
+		texturefile = "gfx/interface/ideologies/ECU/ECU_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ECU_conservatism"
+		texturefile = "gfx/interface/ideologies/ECU/ECU_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ECU_socialism"
+		texturefile = "gfx/interface/ideologies/ECU/ECU_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ECU_liberalism"
+		texturefile = "gfx/interface/ideologies/ECU/ECU_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_EST_fascism_group"
+		texturefile = "gfx/interface/ideologies/EST/EST_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_EST_communism_group"
+		texturefile = "gfx/interface/ideologies/EST/EST_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_EST_neutrality_group"
+		texturefile = "gfx/interface/ideologies/EST/EST_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_EST_conservatism"
+		texturefile = "gfx/interface/ideologies/EST/EST_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_EST_socialism"
+		texturefile = "gfx/interface/ideologies/EST/EST_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_EST_liberalism"
+		texturefile = "gfx/interface/ideologies/EST/EST_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_FIN_fascism_group"
+		texturefile = "gfx/interface/ideologies/FIN/FIN_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FIN_communism_group"
+		texturefile = "gfx/interface/ideologies/FIN/FIN_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FIN_neutrality_group"
+		texturefile = "gfx/interface/ideologies/FIN/FIN_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FIN_conservatism"
+		texturefile = "gfx/interface/ideologies/FIN/FIN_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FIN_socialism"
+		texturefile = "gfx/interface/ideologies/FIN/FIN_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FIN_liberalism"
+		texturefile = "gfx/interface/ideologies/FIN/FIN_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_GRE_fascism_group"
+		texturefile = "gfx/interface/ideologies/GRE/GRE_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GRE_communism_group"
+		texturefile = "gfx/interface/ideologies/GRE/GRE_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GRE_neutrality_group"
+		texturefile = "gfx/interface/ideologies/GRE/GRE_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GRE_conservatism"
+		texturefile = "gfx/interface/ideologies/GRE/GRE_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GRE_socialism"
+		texturefile = "gfx/interface/ideologies/GRE/GRE_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GRE_liberalism"
+		texturefile = "gfx/interface/ideologies/GRE/GRE_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_HOL_fascism_group"
+		texturefile = "gfx/interface/ideologies/HOL/HOL_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HOL_communism_group"
+		texturefile = "gfx/interface/ideologies/HOL/HOL_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HOL_neutrality_group"
+		texturefile = "gfx/interface/ideologies/HOL/HOL_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HOL_conservatism"
+		texturefile = "gfx/interface/ideologies/HOL/HOL_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HOL_socialism"
+		texturefile = "gfx/interface/ideologies/HOL/HOL_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HOL_liberalism"
+		texturefile = "gfx/interface/ideologies/HOL/HOL_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_HUN_fascism_group"
+		texturefile = "gfx/interface/ideologies/HUN/HUN_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HUN_communism_group"
+		texturefile = "gfx/interface/ideologies/HUN/HUN_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HUN_neutrality_group"
+		texturefile = "gfx/interface/ideologies/HUN/HUN_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HUN_conservatism"
+		texturefile = "gfx/interface/ideologies/HUN/HUN_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HUN_socialism"
+		texturefile = "gfx/interface/ideologies/HUN/HUN_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HUN_liberalism"
+		texturefile = "gfx/interface/ideologies/HUN/HUN_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_IRE_fascism_group"
+		texturefile = "gfx/interface/ideologies/IRE/IRE_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRE_communism_group"
+		texturefile = "gfx/interface/ideologies/IRE/IRE_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRE_neutrality_group"
+		texturefile = "gfx/interface/ideologies/IRE/IRE_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRE_conservatism"
+		texturefile = "gfx/interface/ideologies/IRE/IRE_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRE_socialism"
+		texturefile = "gfx/interface/ideologies/IRE/IRE_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRE_liberalism"
+		texturefile = "gfx/interface/ideologies/IRE/IRE_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_LAT_fascism_group"
+		texturefile = "gfx/interface/ideologies/LAT/LAT_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LAT_communism_group"
+		texturefile = "gfx/interface/ideologies/LAT/LAT_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LAT_neutrality_group"
+		texturefile = "gfx/interface/ideologies/LAT/LAT_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LAT_conservatism"
+		texturefile = "gfx/interface/ideologies/LAT/LAT_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LAT_socialism"
+		texturefile = "gfx/interface/ideologies/LAT/LAT_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LAT_liberalism"
+		texturefile = "gfx/interface/ideologies/LAT/LAT_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_LIT_fascism_group"
+		texturefile = "gfx/interface/ideologies/LIT/LIT_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LIT_communism_group"
+		texturefile = "gfx/interface/ideologies/LIT/LIT_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LIT_neutrality_group"
+		texturefile = "gfx/interface/ideologies/LIT/LIT_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LIT_conservatism"
+		texturefile = "gfx/interface/ideologies/LIT/LIT_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LIT_socialism"
+		texturefile = "gfx/interface/ideologies/LIT/LIT_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LIT_liberalism"
+		texturefile = "gfx/interface/ideologies/LIT/LIT_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_LUX_fascism_group"
+		texturefile = "gfx/interface/ideologies/LUX/LUX_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LUX_communism_group"
+		texturefile = "gfx/interface/ideologies/LUX/LUX_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LUX_neutrality_group"
+		texturefile = "gfx/interface/ideologies/LUX/LUX_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LUX_conservatism"
+		texturefile = "gfx/interface/ideologies/LUX/LUX_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LUX_socialism"
+		texturefile = "gfx/interface/ideologies/LUX/LUX_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LUX_liberalism"
+		texturefile = "gfx/interface/ideologies/LUX/LUX_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_MEX_fascism_group"
+		texturefile = "gfx/interface/ideologies/MEX/MEX_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MEX_communism_group"
+		texturefile = "gfx/interface/ideologies/MEX/MEX_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MEX_neutrality_group"
+		texturefile = "gfx/interface/ideologies/MEX/MEX_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MEX_conservatism"
+		texturefile = "gfx/interface/ideologies/MEX/MEX_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MEX_socialism"
+		texturefile = "gfx/interface/ideologies/MEX/MEX_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MEX_liberalism"
+		texturefile = "gfx/interface/ideologies/MEX/MEX_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_NOR_fascism_group"
+		texturefile = "gfx/interface/ideologies/NOR/NOR_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NOR_communism_group"
+		texturefile = "gfx/interface/ideologies/NOR/NOR_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NOR_neutrality_group"
+		texturefile = "gfx/interface/ideologies/NOR/NOR_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NOR_conservatism"
+		texturefile = "gfx/interface/ideologies/NOR/NOR_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NOR_socialism"
+		texturefile = "gfx/interface/ideologies/NOR/NOR_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NOR_liberalism"
+		texturefile = "gfx/interface/ideologies/NOR/NOR_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_PAR_fascism_group"
+		texturefile = "gfx/interface/ideologies/PAR/PAR_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PAR_communism_group"
+		texturefile = "gfx/interface/ideologies/PAR/PAR_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PAR_neutrality_group"
+		texturefile = "gfx/interface/ideologies/PAR/PAR_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PAR_conservatism"
+		texturefile = "gfx/interface/ideologies/PAR/PAR_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PAR_socialism"
+		texturefile = "gfx/interface/ideologies/PAR/PAR_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PAR_liberalism"
+		texturefile = "gfx/interface/ideologies/PAR/PAR_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_POL_fascism_group"
+		texturefile = "gfx/interface/ideologies/POL/POL_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POL_communism_group"
+		texturefile = "gfx/interface/ideologies/POL/POL_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POL_neutrality_group"
+		texturefile = "gfx/interface/ideologies/POL/POL_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POL_conservatism"
+		texturefile = "gfx/interface/ideologies/POL/POL_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POL_socialism"
+		texturefile = "gfx/interface/ideologies/POL/POL_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POL_liberalism"
+		texturefile = "gfx/interface/ideologies/POL/POL_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_POR_fascism_group"
+		texturefile = "gfx/interface/ideologies/POR/POR_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POR_communism_group"
+		texturefile = "gfx/interface/ideologies/POR/POR_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POR_neutrality_group"
+		texturefile = "gfx/interface/ideologies/POR/POR_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POR_conservatism"
+		texturefile = "gfx/interface/ideologies/POR/POR_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POR_socialism"
+		texturefile = "gfx/interface/ideologies/POR/POR_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POR_liberalism"
+		texturefile = "gfx/interface/ideologies/POR/POR_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_PRU_fascism_group"
+		texturefile = "gfx/interface/ideologies/PRU/PRU_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PRU_communism_group"
+		texturefile = "gfx/interface/ideologies/PRU/PRU_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PRU_neutrality_group"
+		texturefile = "gfx/interface/ideologies/PRU/PRU_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PRU_conservatism"
+		texturefile = "gfx/interface/ideologies/PRU/PRU_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PRU_socialism"
+		texturefile = "gfx/interface/ideologies/PRU/PRU_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PRU_liberalism"
+		texturefile = "gfx/interface/ideologies/PRU/PRU_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_ROM_fascism_group"
+		texturefile = "gfx/interface/ideologies/ROM/ROM_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ROM_communism_group"
+		texturefile = "gfx/interface/ideologies/ROM/ROM_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ROM_neutrality_group"
+		texturefile = "gfx/interface/ideologies/ROM/ROM_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ROM_conservatism"
+		texturefile = "gfx/interface/ideologies/ROM/ROM_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ROM_socialism"
+		texturefile = "gfx/interface/ideologies/ROM/ROM_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ROM_liberalism"
+		texturefile = "gfx/interface/ideologies/ROM/ROM_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_SPR_fascism_group"
+		texturefile = "gfx/interface/ideologies/SPR/SPR_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SPR_communism_group"
+		texturefile = "gfx/interface/ideologies/SPR/SPR_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SPR_neutrality_group"
+		texturefile = "gfx/interface/ideologies/SPR/SPR_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SPR_conservatism"
+		texturefile = "gfx/interface/ideologies/SPR/SPR_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SPR_socialism"
+		texturefile = "gfx/interface/ideologies/SPR/SPR_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SPR_liberalism"
+		texturefile = "gfx/interface/ideologies/SPR/SPR_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_fascism_group"
+		texturefile = "gfx/interface/ideologies/SWE/SWE_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_communism_group"
+		texturefile = "gfx/interface/ideologies/SWE/SWE_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_neutrality_group"
+		texturefile = "gfx/interface/ideologies/SWE/SWE_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_conservatism"
+		texturefile = "gfx/interface/ideologies/SWE/SWE_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_socialism"
+		texturefile = "gfx/interface/ideologies/SWE/SWE_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_liberalism"
+		texturefile = "gfx/interface/ideologies/SWE/SWE_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_SWI_fascism_group"
+		texturefile = "gfx/interface/ideologies/SWI/SWI_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWI_communism_group"
+		texturefile = "gfx/interface/ideologies/SWI/SWI_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWI_neutrality_group"
+		texturefile = "gfx/interface/ideologies/SWI/SWI_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWI_conservatism"
+		texturefile = "gfx/interface/ideologies/SWI/SWI_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWI_socialism"
+		texturefile = "gfx/interface/ideologies/SWI/SWI_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWI_liberalism"
+		texturefile = "gfx/interface/ideologies/SWI/SWI_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_TUR_fascism_group"
+		texturefile = "gfx/interface/ideologies/TUR/TUR_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TUR_communism_group"
+		texturefile = "gfx/interface/ideologies/TUR/TUR_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TUR_neutrality_group"
+		texturefile = "gfx/interface/ideologies/TUR/TUR_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TUR_conservatism"
+		texturefile = "gfx/interface/ideologies/TUR/TUR_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TUR_socialism"
+		texturefile = "gfx/interface/ideologies/TUR/TUR_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TUR_liberalism"
+		texturefile = "gfx/interface/ideologies/TUR/TUR_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_URG_fascism_group"
+		texturefile = "gfx/interface/ideologies/URG/URG_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_URG_communism_group"
+		texturefile = "gfx/interface/ideologies/URG/URG_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_URG_neutrality_group"
+		texturefile = "gfx/interface/ideologies/URG/URG_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_URG_conservatism"
+		texturefile = "gfx/interface/ideologies/URG/URG_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_URG_socialism"
+		texturefile = "gfx/interface/ideologies/URG/URG_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_URG_liberalism"
+		texturefile = "gfx/interface/ideologies/URG/URG_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_VEN_fascism_group"
+		texturefile = "gfx/interface/ideologies/VEN/VEN_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VEN_communism_group"
+		texturefile = "gfx/interface/ideologies/VEN/VEN_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VEN_neutrality_group"
+		texturefile = "gfx/interface/ideologies/VEN/VEN_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VEN_conservatism"
+		texturefile = "gfx/interface/ideologies/VEN/VEN_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VEN_socialism"
+		texturefile = "gfx/interface/ideologies/VEN/VEN_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VEN_liberalism"
+		texturefile = "gfx/interface/ideologies/VEN/VEN_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_YUG_fascism_group"
+		texturefile = "gfx/interface/ideologies/YUG/YUG_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_YUG_communism_group"
+		texturefile = "gfx/interface/ideologies/YUG/YUG_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_YUG_neutrality_group"
+		texturefile = "gfx/interface/ideologies/YUG/YUG_neutrality.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_YUG_conservatism"
+		texturefile = "gfx/interface/ideologies/YUG/YUG_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_YUG_socialism"
+		texturefile = "gfx/interface/ideologies/YUG/YUG_socialism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_YUG_liberalism"
+		texturefile = "gfx/interface/ideologies/YUG/YUG_liberalism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_CRO_fascism_group"
+		texturefile = "gfx/interface/ideologies/CRO/CRO_fascism.dds"
+	}
+	
+	### BRITAIN
+	
+	
+	spriteType = {
+		name = "GFX_ideology_TAN_communism_group"
+		texturefile = "gfx/interface/ideologies/TAN/TAN_communism.dds"
+	}
+	
+	### BRITAIN
+	
+
+	
+	spriteType = {
+		name = "GFX_ideology_VIN_communism_group"
+		texturefile = "gfx/interface/ideologies/VIN/VIN_communism.dds"
+	}
+	
+
+	### BRITAIN
+	
+	
+	spriteType = {
+		name = "GFX_ideology_MON_communism_group"
+		texturefile = "gfx/interface/ideologies/MON/MON_communism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_CZE_fascism_group"
+		texturefile = "gfx/interface/ideologies/CZE/CZE_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CZE_communism_group"
+		texturefile = "gfx/interface/ideologies/CZE/CZE_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CZE_democratic_group"
+		texturefile = "gfx/interface/ideologies/CZE/CZE_democratic.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_ideology_KOR_communism_group"
+		texturefile = "gfx/interface/ideologies/KOR/KOR_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DPR_communism_group"
+		texturefile = "gfx/interface/ideologies/KOR/KOR_communism.dds"
+	}
+	
+		### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_MAN_fascism_group"
+		texturefile = "gfx/interface/ideologies/MAN/MAN_fascism.dds"
+	}
+	
+	
+	### BRITAIN
+	
+	spriteType = {
+		name = "GFX_ideology_MEN_fascism_group"
+		texturefile = "gfx/interface/ideologies/MEN/MEN_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SER_fascism_group"
+		texturefile = "gfx/interface/ideologies/SER/SER_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SER_communism_group"
+		texturefile = "gfx/interface/ideologies/SER/SER_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SLO_fascism_group"
+		texturefile = "gfx/interface/ideologies/SLO/SLO_fascism.dds"
+	}
+
+	
+	### END PERSONALIZED
+	
+	spriteType = {
+		name = "GFX_ideology_GER_paganism"
+		texturefile = "gfx/interface/ideologies/GER/GER_theocratic.dds"
+	}
+
+
+	
+	
+	#### MONARCHISM
+	
+	spriteType = {
+		name = "GFX_ideology_ADR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ADR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_AFG_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/AFG_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ALB_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ALB_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_AUS_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/AUS_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BEL_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/BEL_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BHU_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/BHU_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BRA_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/BRA_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BUL_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/BUL_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CHI_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CHI_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SIK_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CHI_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_XSM_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CHI_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GXC_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CHI_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_YUN_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CHI_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SHX_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CHI_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PRC_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CHI_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MAN_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CHI_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CZE_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CZE_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CZR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/CZE_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DEN_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/DEN_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ICE_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/DEN_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GLD_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/DEN_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ENG_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ENG_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_CAN_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ENG_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_AST_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ENG_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NZL_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ENG_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_EST_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/EST_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ETH_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ETH_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FIN_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/FIN_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_FRA_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/FRA_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VIC_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/FRA_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GER_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/GER_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_WGR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/GER_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DDR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/GER_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SAR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/GER_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_GRE_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/GRE_monarchism.dds"
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_ideology_HOL_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/HOL_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_HUN_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/HUN_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NIR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/IRE_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRE_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/IRE_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_IRQ_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/IRQ_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ITA_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ITA_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RSI_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ITA_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_JAP_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/JAP_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LAT_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/LAT_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LIE_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/LIE_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LIT_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/LIT_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_LUX_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/LUX_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MCO_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/MCO_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MEX_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/MEX_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NEP_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/NEP_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_NOR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/NOR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_OMA_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/OMA_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_PER_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/PER_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POL_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/POL_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_POR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/POR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ROM_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/ROM_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SAU_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/SAU_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SIA_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/SIA_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SMR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/SMR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SOV_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/SOV_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RUS_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/SOV_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SPR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/SPR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWE_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/SWE_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SWI_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/SWI_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TIB_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/TIB_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_TUR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/TUR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_USA_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/USA_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_VCT_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/VCT_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_YEM_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/YEM_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_YUG_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/YUG_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MON_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/MON_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MEN_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/MON_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_UKR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/UKR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_BLR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/BLR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_SAF_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/SAF_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_RAJ_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/RAJ_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_MAL_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/MAL_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_KOR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/KOR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_DPR_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/KOR_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_INS_monarchism_group"
+		texturefile = "gfx/interface/ideologies/monarchism/INS_monarchism.dds"
+	}
+
+	
+	
+	
+	### END IDEOLOGIES ###
+	
+}

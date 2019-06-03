@@ -1,0 +1,60 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_select_date_1910"
+		texturefile = "gfx/interface/select_date_1910.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_select_date_1918"
+		texturefile = "gfx/interface/select_date_1918.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_select_date_1936"
+		texturefile = "gfx/interface/select_date_1936.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_select_date_1945"
+		texturefile = "gfx/interface/select_date_1945.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_select_date_1962"
+		texturefile = "gfx/interface/select_date_1962.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_select_date_1979"
+		texturefile = "gfx/interface/select_date_1979.dds"
+	}
+	
+
+	spriteType = {
+		name = "GFX_select_date_2000"
+		texturefile = "gfx/interface/select_date_2000.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_select_date_2017"
+		texturefile = "gfx/interface/select_date_2017.dds"
+	}
+	
+		spriteType = {
+		name = "GFX_select_date_1939"
+		texturefile = "gfx/interface/select_date_1939.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_select_date_1950"
+		texturefile = "gfx/interface/select_date_1950.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_select_date_1991"
+		texturefile = "gfx/interface/select_date_1991.dds"
+	}
+
+}

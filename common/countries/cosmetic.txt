@@ -1,0 +1,525 @@
+MAL_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+RAJ_UK = {
+	color = rgb { 170  10  10 }
+	color_ui = rgb { 200  10  10 }
+}
+
+INS_HOL = {
+    color = rgb { 203 138 74 }
+    color_ui = rgb { 255 179 96 }
+}
+
+HUN_EMPIRE = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
+}
+
+AUS_NOT_WHITE = {	
+	color = rgb { 249 126 98 }
+	color_ui = rgb { 255 164 127 }
+}
+
+SCA_UNIFIED = {
+	color = rgb { 0 102 204 }
+	color_ui = rgb { 0 102 204 }
+}
+
+NDC_UNIFIED = {
+	color = rgb { 0 76 153 }
+	color_ui = rgb { 0 76 153 }
+}
+
+GCO_UNIFIED = {
+	color = rgb { 255 255 51 }
+	color_ui = rgb { 255 255 51 }
+}
+
+PLC_UNIFIED = {
+	color = rgb { 255 125 160 }
+	color_ui = rgb { 255 125 160 }
+}
+
+UNL_UNIFIED = {
+	color = rgb { 255 128 0 }
+	color_ui = rgb { 255 128 0 }
+}
+
+USC_UNIFIED = {
+	color = rgb { 103 204 255 }
+	color_ui = rgb { 103 204 255 }
+}
+
+BAL_UNIFIED = {
+	color = rgb { 0 102 102 }
+	color_ui = rgb { 0 102 102 }
+}
+
+OTT_UNIFIED = {
+	color = rgb { 178 255 102 }
+	color_ui = rgb { 178 255 102 }
+}
+
+EUR_UNIFIED = {
+	color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+
+MUT_UNIFIED = {
+	color = rgb { 153 153 0 }
+	color_ui = rgb { 153 153 0 }
+}
+
+SPQR_UNIFIED = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
+
+PER_UNIFIED = {
+	color = rgb { 255 215 0 }
+	color_ui = rgb { 255 215 0 }
+}
+
+BYZ_UNIFIED = {
+	color = rgb { 143 12 125 }
+	color_ui = rgb { 143 12 125 }
+}
+
+ARA_UNIFIED = {
+	color = rgb { 85 102 0 }
+	color_ui = rgb { 85 102 0 }
+}
+
+MAJ_UNIFIED = {
+	color = rgb { 255 51 51 }
+	color_ui = rgb { 255 51 51 }
+}
+
+RAT_UNIFIED = {
+	color = rgb { 255 255 51 }
+	color_ui = rgb { 255 255 51 }
+}
+
+HRE_UNIFIED = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 128 128 128 }
+}
+
+NOR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+HOL_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+BEL_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+BLR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+UKR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+SPR_civil_war = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 245 123 38 }
+}
+
+GER_civil_war = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+
+GER_provisional_gvt = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+GER_german_empire = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+GER_german_monarchy = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CHI_warlord_leader = {
+	color = hsv { 0.18 0.6 0.9 } #255 244 190
+	color_ui = hsv { 0.18 0.3 0.9 }
+}
+MAN_restored = {
+	color = rgb { 237 152 18 }
+	color_ui = rgb { 224 139 5 }
+}
+JAP_showa_restoration = {
+	color = rgb { 230 230 230 }
+	color_ui = rgb { 230 230 230 }
+}
+
+GER_greater_german_reich = {
+	color = rgb { 54 54 54 }
+	color_ui = rgb { 115 115 115 }
+}
+
+CHI_warlord_PRC = {
+	color = rgb { 245 12 55 }
+	color_ui = rgb { 178 34 60 }
+}
+
+CHI_power_struggle_defeated = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 198 169 248 }
+}
+
+MEX_cristero = {
+	color = rgb { 140 200 120 }
+	color_ui = rgb { 200 255 200 }
+}
+
+ENG_imperial_federation_unified = {
+	color = rgb { 180 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+
+ENG_imperial_federation_india_unified = {
+	color = rgb { 180 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+
+CAN_north_america_dominion = {
+	color = rgb { 160 0 0 }
+	color_ui = rgb { 235 0 0 }
+}
+
+USA_CSA = {
+	color = rgb { 145 163 176  }
+	color_ui = rgb { 186 205 219 }
+}
+
+SOV_russia = {
+    color = rgb { 72 143 68 }
+    color_ui = rgb { 72 143 68 }
+}
+
+HOL_benelux_unified = {
+	color = rgb { 255 128 0 }
+	color_ui = rgb { 255 128 0 }
+}
+
+GER_greater_germanic_reich = {
+	color = rgb { 222 0 0 }
+	color_ui = rgb { 222 0 0 }
+}
+
+SWI_alamannia = {
+	color = rgb { 0 153 0 }
+	color_ui = rgb { 0 197 146 }
+}
+AUS_greater_germany = {
+	color = rgb { 75 130 135 }
+	color_ui = rgb { 17 16 203 }
+}
+PLC_UNIFIED_HABSBURG = {
+	color = rgb { 255 125 160 }
+	color_ui = rgb { 255 125 160 }
+}
+
+GER_grossdeutsches_reich = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+GER_deutscher_staat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+CZE_reichsprotectorat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 138 155 116 }
+}
+
+NOR_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+HOL_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+BEL_reichskommissariat = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 122 145 93 }
+}
+
+NBK_NAZI = {
+	color = rgb { 146 0 10 }
+	color_ui = rgb { 178 34	34 }
+}
+
+NBK_BUF = {
+	color = rgb { 136 83 1 }
+	color_ui = rgb { 136 83 1 }
+}
+
+TUR_NAZI = {	
+	color = rgb { 40 114 51 }
+	color_ui = rgb { 40 114 51 }
+}
+german_north_america = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+japanese_pacific_states = {
+	color = hsv { 0.05 0.3 1 }
+	color_ui = hsv { 0.05 0.25 1.2 }
+}
+AFR_formable = {
+    color = rgb { 49 148 0 }
+	color_ui = rgb { 49 148 0 }
+}
+ARA_formable = {
+    color = rgb { 0 98 51 }
+	color_ui = rgb { 0 98 51 }
+}
+AUH_formable = {
+    color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+BAK_formable = {
+    color = rgb { 10 94 128 }
+	color_ui = rgb { 10 94 128 }
+}
+BAL_formable = {
+    color = rgb { 107 148 169 }
+	color_ui = rgb { 107 148 169 }
+}
+BE1_formable = {
+    color = rgb { 227 173 31 }
+	color_ui = rgb { 227 173 31 }
+}
+BYZ_formable = {
+    color = rgb { 178 0 89 }
+	color_ui = rgb { 178 0 89 }
+}
+CAU_formable = {
+    color = rgb { 255 204 0 }
+	color_ui = rgb { 255 204 0 }
+}
+CEN_formable = {
+    color = rgb { 137 197 227 }
+	color_ui = rgb { 137 197 227 }
+}
+CO1_formable = {
+    color = rgb { 255 128 128 }
+	color_ui = rgb { 255 128 128 }
+}
+EUR_formable = {
+    color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+FRE_formable = {
+    color = rgb { 106 0 0 }
+	color_ui = rgb { 106 0 0 }
+}
+HRE_formable = {
+    color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+IBE_formable = {
+    color = rgb { 255 219 0 }
+	color_ui = rgb { 255 219 0 }
+}
+LAU_formable = {
+    color = rgb { 255 128 128 }
+	color_ui = rgb { 255 128 128 }
+}
+MAC_formable = {
+    color = rgb { 56 115 255 }
+	color_ui = rgb { 56 115 255 }
+}
+MOE_formable = {
+    color = rgb { 51 104 204 }
+	color_ui = rgb { 51 104 204 }
+}
+MR1_formable = {
+    color = rgb { 174 154 48 }
+	color_ui = rgb { 174 154 48 }
+}
+POH_formable = {
+    color = rgb { 255 128 128 }
+	color_ui = rgb { 255 128 128 }
+}
+QIN_formable = {
+    color = rgb { 254 205 33 }
+	color_ui = rgb { 254 205 33 }
+}
+ROE_formable = {
+    color = rgb { 181 0 0 }
+	color_ui = rgb { 181 0 0 }
+}
+SOU_formable = {
+    color = rgb { 0 51 153 }
+	color_ui = rgb { 0 51 153 }
+}
+SCA_formable = {
+    color = rgb { 255 205 65 }
+	color_ui = rgb { 255 205 65 }
+}
+WOR_formable = {
+    color = rgb { 57 123 206 }
+	color_ui = rgb { 57 123 206 }
+}
+GIS_formable = {
+    color = rgb { 128 156 220 }
+	color_ui = rgb { 128 156 220 }
+}
+HU1_formable = {
+    color = rgb { 194 141 107 }
+	color_ui = rgb { 194 141 107 }
+}
+CR1_formable = {
+    color = rgb { 184 113 148 }
+	color_ui = rgb { 184 113 148 }
+}
+SL1_formable = {
+    color = rgb { 148 158 152 }
+	color_ui = rgb { 148 158 152 }
+}
+CZ1_formable = {
+    color = rgb { 96 161 136 }
+	color_ui = rgb { 96 161 136 }
+}
+GRO_formable = {
+    color = rgb { 70 0 0 }
+	color_ui = rgb { 70 0 0 }
+}
+PEE_formable = {
+    color = rgb { 0 120 0 }
+	color_ui = rgb { 0 120 0 }
+}
+NSE_formable = {
+    color = rgb { 185 111 70 }
+	color_ui = rgb { 185 111 70 }
+}
+TKS_formable = {
+    color = rgb { 102 204 255 }
+	color_ui = rgb { 102 204 255 }
+}
+ICH_formable = {
+    color = rgb { 127 128 255 }
+	color_ui = rgb { 127 128 255 }
+}
+SEP_formable = {
+    color = rgb { 102 204 255 }
+	color_ui = rgb { 102 204 255 }
+}
+NOA_formable = {
+    color = rgb { 70 107 181 }
+	color_ui = rgb { 70 107 181 }
+}
+GEG_formable = {
+    color = rgb { 116 218 162 }
+	color_ui = rgb { 116 218 162 }
+}
+PRB_formable = {
+    color = rgb { 209 0 0 }
+	color_ui = rgb { 209 0 0 }
+}
+GOL_formable = {
+    color = rgb { 146 179 191 }
+	color_ui = rgb { 146 179 191 }
+}
+GCA_formable = {
+    color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+PLA_formable = {
+    color = rgb { 145 157 236 }
+	color_ui = rgb { 145 157 236 }
+}
+ASS_formable = {
+    color = rgb { 178 114 99 }
+	color_ui = rgb { 178 114 99 }
+}
+CAP_formable = {
+    color = rgb { 249 126 98 }
+	color_ui = rgb { 249 126 98 }
+}
+VIS_formable = {
+    color = rgb { 197 92 106 }
+	color_ui = rgb { 197 92 106 }
+}
+ASI_formable = {
+    color = rgb { 255 15 65 }
+	color_ui = rgb { 255 15 65 }
+}
+EUA_formable = {
+    color = rgb { 23 23 69 }
+	color_ui = rgb { 23 23 69 }
+}
+GLI_formable = {
+    color = rgb { 175 20 20 }
+	color_ui = rgb { 175 20 20 }
+}
+BRI_formable = {
+    color = rgb { 175 20 20 }
+	color_ui = rgb { 175 20 20 }
+}
+FRA_EMPIRE = {
+	color = rgb { 17 13 141 }
+	color_ui = rgb { 210 147 217 }
+}
+FRA_UK = {
+    color = rgb { 111 53 152 }
+	color_ui = rgb { 111 53 152 }
+}
+ISS_formable = {
+	color = rgb { 178 255 102 }
+	color_ui = rgb { 178 255 102 }
+}
+CZE_reunited = {	
+color = rgb { 54 167 156 }
+color_ui = rgb { 70 217 203 }
+}
+
+GER_reunited = {
+	color = rgb { 128 128 128 }
+	color_ui = rgb { 115 115 115 }
+}
+
+ENG_reunited = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+SOV_reunited = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+
+YUG_reunited = {
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 94 95 164 }
+}
+
+KOR_reunited = {
+	color = rgb { 255  240  195 }
+	color_ui = rgb { 255 248 229 }	
+}

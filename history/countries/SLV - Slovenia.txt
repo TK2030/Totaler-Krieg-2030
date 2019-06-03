@@ -1,0 +1,89 @@
+﻿capital = 102
+
+set_research_slots = 3
+
+# Starting tech
+# clone of Yugoslavia
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+}
+
+set_politics = {
+
+	parties = {
+		fascism = { 
+			popularity = 33
+		}
+		neutrality = { 
+			popularity = 33
+		}		
+		communism = {
+			popularity = 34
+		}
+	}
+}
+
+create_country_leader = {
+	name = "Leon Rupnik"
+	desc = "POLITICS_LEON_RUPNIK_DESC"
+	picture = "gfx/leaders/SLV/LeonRupnik.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Marko Natlačen"
+	desc = "POLITICS_MARKO_NATLACEN__DESC"
+	picture = "gfx/leaders/SLV/Marko.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Boris Kidrič"
+	desc = "POLITICS_BORIS_KIDRIC_DESC"
+	picture = "gfx/leaders/SLV/Kidric.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Miha Krek"
+	desc = "POLITICS_MIHA_KREK_DESC"
+	picture = "gfx/leaders/SLV/Krek.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+					name = " Otto von Habsburg"
+					desc = "POLITICS_OTTO_VON_HABSBURG_DESC"
+					picture = "gfx/leaders/HUN/Portrait_otto_von_hapsburg.dds"
+					expire = "1965.1.1"
+					ideology = absolutism
+					traits = { }
+					
+					id = 21010
+				}

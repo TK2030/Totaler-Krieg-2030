@@ -1,0 +1,117 @@
+# Age Laws
+	ideas = {
+	
+	drugs_traits = {
+		law = yes
+		
+		drugs1 = {
+		default = yes
+			removal_cost = -1
+			level = 7
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			
+			}
+			
+			drugs2 = {
+			removal_cost = -1
+			level = 6
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			drugs3 = {
+			removal_cost = -1
+			level = 5
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			drugs4 = {
+			removal_cost = -1
+			
+			level = 4
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			drugs5 = {
+			removal_cost = -1
+			level = 3
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			drugs6 = {
+			removal_cost = -1
+			level = 2
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			drugs7 = {
+			removal_cost = -1
+			level = 1
+			
+			available = {
+				always = no
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+
+	}
+}
+### EOF ###

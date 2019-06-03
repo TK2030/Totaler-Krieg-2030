@@ -1,0 +1,146 @@
+﻿capital = 219
+
+oob = "SOV_1936"
+
+set_technology = {
+	improved_light_tank = 1 
+	basic_medium_tank = 1 
+	CAS2 = 1
+	heavy_fighter1 = 1
+	interwar_artillery = 1
+	interwar_antitank = 1
+	infantry_weapons2 = 1
+	improved_infantry_weapons = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	paratroopers = 1
+
+	#doctrines
+	delay = 1
+	elastic_defence = 1
+	armored_spearhead = 1
+	schwerpunk = 1
+	blitzkrieg = 1
+	convoy_interdiction_ti = 1
+	unrestricted_submarine_warfare = 1
+	raider_patrols = 1
+
+	#air
+	formation_flying = 1		
+	dive_bombing = 1
+	direct_ground_support = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	basic_encryption = 1
+	basic_decryption = 1
+
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	improved_oil_processing = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	construction4 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	dispersed_industry4 = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 10 #shared between all parties, should add to 100
+		}
+
+		fascism = {
+			popularity = 10
+		}
+		
+		communism = {
+			popularity = 20
+		}
+		
+		neutrality = {
+			popularity = 60
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	home_of_revolution
+}
+
+create_country_leader = {
+	name = "Joseph Stalin"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Joseph_Stalin.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Konstantin Rodzaevsky"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Konstantin_Rodzaevsky.dds"
+	expire = "1953.3.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Andrey Vlasov"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Andrey_Vlasov.dds"
+	expire = "1953.3.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Alexander Fyodorovich Kerensky"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_1.dds"
+	expire = "1953.3.1"
+	ideology = socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Kirill"
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Tsar_Kirill.dds"
+	expire = "1938.10.12"
+	ideology = absolutism
+	traits = {
+		
+	}
+}
+
+add_namespace = {
+	name = "unit_leader_sov"
+	type = unit_leader
+}

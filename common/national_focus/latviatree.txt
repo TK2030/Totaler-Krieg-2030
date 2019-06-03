@@ -1,0 +1,1768 @@
+focus_tree = {
+	id = latvia
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = LAT
+		}
+	}
+	
+	default = no
+
+	focus = {
+	  id = "Industrial Effort"
+	  icon = GFX_goal_generic_production
+	  x = 1
+	  y = 0
+	  cost = 5
+	  completion_reward = {
+	  
+	  add_political_power = 250 
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Rīga-Liepāja highway"
+	  icon = GFX_goal_generic_construct_infrastructure
+	  prerequisite = { focus = "Industrial Effort" }
+	  x = 1
+	  y = 1
+	  cost = 10
+	  completion_reward = {
+	  
+	  190 = {
+	  add_building_construction = {
+	  type = infrastructure 
+	  level = 2 
+	  instant_build = yes } }
+
+	  }
+
+
+	}
+
+	##A line continues
+
+	focus = {
+	  id = "Laima"
+	  icon = GFX_goal_generic_construct_civ_factory
+	  prerequisite = { focus = "Rīga-Liepāja highway" }
+	  x = 1
+	  y = 2
+	  cost = 10
+	  completion_reward = {
+	  
+	  190 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = industrial_complex 
+	  level = 1 
+	  instant_build = yes } }
+	  
+	  12 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = industrial_complex 
+	  level = 1 
+	  instant_build = yes } }
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Unions" 
+	  icon = GFX_goal_generic_construct_civ_factory
+	  prerequisite = { focus = "Laima" }
+	  x = 1
+	  y = 3
+	  cost = 10
+	  completion_reward = {
+	  
+	   190 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = industrial_complex 
+	  level = 1 
+	  instant_build = yes } }
+	  
+	  12 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = industrial_complex 
+	  level = 1
+	  instant_build = yes } }
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Rīgas audums"
+	  icon = GFX_goal_generic_construct_civ_factory
+	  prerequisite = { focus = "Unions"  }
+	  x = 1
+	  y = 4
+	  cost = 10
+	  completion_reward = {
+	  
+	   190 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = industrial_complex 
+	  level = 1
+	  instant_build = yes } }
+	  
+	  12 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = industrial_complex 
+	  level = 1 
+	  instant_build = yes } }
+
+	  }
+
+
+	}
+
+	##B line begins
+
+	focus = {
+	  id = "Vairogs"
+	  icon = GFX_goal_generic_construct_mil_factory
+	  prerequisite = { focus = "Rīga-Liepāja highway" }
+	  x = 3
+	  y = 2
+	  cost = 10
+	  completion_reward = {
+	  
+	  190 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = arms_factory 
+	  level = 1
+	  instant_build = yes } }
+	  
+	  12 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = arms_factory 
+	  level = 1
+	  instant_build = yes } }
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Tosmare"
+	  icon = GFX_goal_generic_construct_mil_factory
+	  prerequisite = { focus = "Vairogs" }
+	  x = 3
+	  y = 3
+	  cost = 10
+	  completion_reward = {
+	  
+	  190 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = arms_factory 
+	  level = 1
+	  instant_build = yes } }
+	  
+	  12 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = arms_factory 
+	  level = 1 
+	  instant_build = yes } }
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Fēnikss"
+	  icon = GFX_goal_generic_construct_mil_factory
+	  prerequisite = { focus = "Tosmare" }
+	  x = 3
+	  y = 4
+	  cost = 10
+	  completion_reward = {
+	  
+	  190 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = arms_factory 
+	  level = 1 
+	  instant_build = yes } }
+	  
+	  12 = {
+	  add_extra_state_shared_building_slots = 1
+	  add_building_construction = {
+	  type = arms_factory 
+	  level = 1 
+	  instant_build = yes } }
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Army Effort"
+	  icon = GFX_goal_generic_allies_build_infantry
+	  x = 8
+	  y = 0
+	  cost = 5
+	  completion_reward = {
+	  
+	  army_experience = 10
+	  navy_experience = 10
+	  air_experience = 10
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Doctorine Effort"
+	  icon = GFX_goal_generic_army_doctrines
+	  prerequisite = { focus = "Army Effort" }
+	  x = 8
+	  y = 1
+	  cost = 10
+	  completion_reward = {
+	  
+	  add_tech_bonus = {
+	  name = land_doc_bonus
+	  bonus = 0.5
+	  uses = 1
+	  category = land_doctrine}
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Equipment Effort"
+	  icon = GFX_goal_generic_small_arms
+	  prerequisite = { focus = "Doctorine Effort" }
+	  x = 8
+	  y = 2
+	  cost = 10
+	  completion_reward = {
+	  
+	  add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+				category = artillery}
+
+	  }
+
+
+	}
+
+	##B Tree
+	
+	focus = {
+		id = "Motorization Effort"
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = "Equipment Effort" }
+		x = 7
+		y = 3
+		cost = 10
+		completion_reward = {
+		
+		add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 0.5
+				uses = 1
+				category = motorized_equipment }
+
+		}
+
+
+	}
+
+	##C Tree
+
+	focus = {
+	  id = "Equipment Effort II"
+	  icon = GFX_goal_generic_army_artillery
+	  prerequisite = { focus = "Equipment Effort" }
+	  x = 9
+	  y = 3
+	  cost = 10
+	  completion_reward = {
+	  
+	  add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 1
+				uses = 1
+				category = infantry_weapons
+				category = artillery}
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Armor Effort"
+	  icon = GFX_goal_generic_army_tanks
+	  prerequisite = { focus = "Equipment Effort II" }
+	  x = 9
+	  y = 4
+	  cost = 10
+	  completion_reward = {
+	  
+	  add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor}
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Special Forces"
+	  icon = GFX_goal_generic_special_forces
+	  prerequisite = { focus = "Armor Effort" }
+	  prerequisite = { focus = "Military education and training" }
+	  x = 8
+	  y = 5
+	  cost = 10
+	  completion_reward = {
+	  
+	  add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.5
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2}
+
+	  }
+
+
+	}
+
+	focus = {
+	  id = "Military education and training"
+	  icon = GFX_goal_generic_allies_build_infantry
+	  prerequisite = { focus = "Motorization Effort" }
+	  x = 7
+	  y = 4
+	  cost = 10
+	  completion_reward = {
+	  
+	 army_experience = 100
+	  navy_experience = 100
+	  air_experience = 100
+
+	  }
+
+
+	}
+
+######
+
+focus = {
+  id = "Political Effort"
+  icon = GFX_goal_generic_demand_territory
+  x = 16
+  y = 0
+  cost = 5
+  
+  			ai_will_do = {
+			factor = 60
+			
+			modifier = {
+			factor = 0
+			is_historical_focus_on = yes
+			date < 1945.1.1
+			}
+			
+		}
+  
+  completion_reward = {
+  
+   add_political_power = 250
+
+  }
+
+  
+}
+
+focus = {
+  id = "Collectivist Ethos"
+  icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
+  prerequisite = { focus = "Political Effort" }
+  x = 15
+  y = 1
+  cost = 10
+  mutually_exclusive = { focus = "Liberty Ethos" }
+  completion_reward = {
+  
+  add_ideas = collectivist_ethos
+  
+  }
+
+
+}
+
+focus = {
+  id = "Liberty Ethos"
+  icon = GFX_focus_generic_the_giant_wakes
+  prerequisite = { focus = "Political Effort" }
+  x = 18
+  y = 1
+  cost = 10
+  mutually_exclusive = { focus = "Collectivist Ethos" }
+  completion_reward = {
+  
+  add_ideas = liberty_ethos_focus
+
+  }
+
+
+}
+
+##B Tree
+
+focus = {
+  id = "Internationalism Focus"
+  icon = GFX_focus_generic_soviet_politics
+  prerequisite = { focus = "Collectivist Ethos" }
+  x = 12
+  y = 2
+  cost = 10
+  mutually_exclusive = { focus = "Nationalism Focus" }
+  completion_reward = {
+  
+  add_ideas = communism_on_the_rise
+
+  }
+
+
+}
+
+focus = {
+  id = "Indoctrination"
+  icon = GFX_focus_generic_join_comintern
+  prerequisite = { focus = "Internationalism Focus" }
+  x = 12
+  y = 3
+  cost = 10
+  completion_reward = {
+  
+  add_ideas = indoctrination_focus
+
+  }
+
+
+}
+
+focus = {
+  id = "Political Commissars"
+  icon = GFX_goal_generic_soviet_construction
+  prerequisite = { focus = "Indoctrination" }
+  x = 12
+  y = 4
+  cost = 10
+  completion_reward = {
+  
+  add_ideas = political_commissars_focus
+
+  }
+
+
+}
+
+##C Tree
+
+focus = {
+  id = "Nationalism Focus"
+  icon = GFX_goal_support_fascism #icon = GFX_goal_tripartite_pact
+  prerequisite = { focus = "Collectivist Ethos" }
+  x = 15
+  y = 2
+  cost = 10
+  mutually_exclusive = { focus = "Internationalism Focus" }
+  completion_reward = {
+
+  add_ideas = fascism_on_the_rise
+
+  }
+
+
+}
+
+focus = {
+  id = "Militarism"
+  icon = GFX_focus_generic_military_academy
+  prerequisite = { focus = "Nationalism Focus" }
+  x = 15
+  y = 3
+  cost = 10
+  completion_reward = {
+  
+  add_ideas = militarism_focus
+
+  }
+
+
+}
+
+focus = {
+  id = "Paramilitarism"
+  icon = GFX_goal_support_fascism
+  prerequisite = { focus = "Militarism" }
+  x = 15
+  y = 4
+  cost = 10
+  completion_reward = {
+  
+  add_ideas = paramilitarism_focus
+
+  }
+
+
+}
+
+##D Tree
+
+focus = {
+  id = "Neutrality  Focus"
+  icon = GFX_goal_generic_neutrality_focus
+  prerequisite = { focus = "Liberty Ethos" }
+  x = 18
+  y = 2
+  cost = 10
+  mutually_exclusive = { focus = "Democracy Focus" }
+  completion_reward = {
+  
+  add_ideas = neutrality_idea
+
+
+  }
+
+
+}
+
+focus = {
+  id = "Deterrence"
+  icon = GFX_goal_generic_defence
+  prerequisite = { focus = "Neutrality  Focus" }
+  x = 18
+  y = 3
+  cost = 10
+  completion_reward = {
+  
+  add_ideas = deterrence
+
+  }
+
+
+}
+
+focus = {
+  id = "One Law for everyone"
+  icon = GFX_focus_lat_ulmanis
+  prerequisite = { focus = "Deterrence" }
+  x = 18
+  y = 4
+  cost = 10
+  completion_reward = {
+  
+  add_stability = 0.10
+  add_war_support = 0.10
+
+  }
+  
+  
+}
+
+focus = {
+  id = "Rīga-Cēsis highway"
+  icon = GFX_goal_generic_construct_infrastructure
+  prerequisite = { focus = "Rīgas audums" }
+  prerequisite = { focus = "Fēnikss" }
+  x = 2
+  y = 5	
+  cost = 10
+  completion_reward = {
+  
+  12 = {
+	  add_building_construction = {
+	  type = infrastructure 
+	  level = 2 
+	  instant_build = yes } }
+
+  }  
+
+
+}
+
+focus = {
+  id = "University of Latvia"
+  icon = GFX_goal_lat_universitate
+  prerequisite = { focus = "Rīga-Cēsis highway" }
+  x = 2
+  y = 6	
+  cost = 10
+  completion_reward = {
+ 
+  add_research_slot = 2
+
+  }    
+}
+
+focus = {
+  id = "Democracy Focus"
+  icon = GFX_focus_generic_treaty
+  prerequisite = { focus = "Liberty Ethos" }
+  x = 21
+  y = 2
+  cost = 10
+  mutually_exclusive = { focus = "Neutrality Focus" }
+  completion_reward = {
+  
+  add_ideas = democratic_influence
+
+  }
+
+}
+
+focus = {
+  id = "Volunteer Corps"
+  icon = GFX_goal_generic_axis_build_infantry
+  prerequisite = { focus = "Democracy Focus" }
+  x = 21
+  y = 3
+  cost = 10
+  completion_reward = {
+  
+  add_ideas = volunteer_corps_focus
+
+  }
+
+}
+
+focus = {
+  id = "Foreign Expeditions"
+  icon = GFX_goal_rhineland
+  prerequisite = { focus = "Volunteer Corps" }
+  x = 21
+  y = 4
+  cost = 10
+  completion_reward = {
+  
+  add_ideas = foreign_expeditions_focus
+
+  }  
+  
+}  
+  focus = {
+  id = "Befriend Estonia"
+  icon = GFX_focus_generic_aluminum
+  prerequisite = { focus = "Foreign Expeditions" }
+  x = 22
+  y = 5
+  cost = 10
+  available = {
+  country_exists = EST
+			NOT = {
+				has_war_with = EST
+			}`
+  has_government = democracy }
+  bypass = {
+			EST = {
+				OR = {
+					NOT = { country_exists = EST }
+					has_capitulated = yes
+				}
+			}
+		}
+  completion_reward = {
+  
+  diplomatic_relation = { country = EST relation = non_aggression_pact }
+  add_political_power = 150
+  give_guarantee = EST
+  give_military_access = EST
+
+  }  
+}  
+  focus = {
+  id = "Biron family"
+  icon = GFX_focus_lat_von_biron
+  prerequisite = { focus = "Paramilitarism" }
+  x = 16
+  y = 5
+  cost = 5
+  mutually_exclusive = { focus = "Gustavs Celmiņš" }
+  available = { 
+  has_government = fascism }
+  completion_reward = {
+  
+  create_country_leader = { name = "Peter Alexander von Biron" 
+  desc = "PETER_VON_BIRON_DESC" 
+  picture =  "Portrait_Peter_Von_Biron.dds" 
+  expire = "1965.1.1" 
+  ideology = nazism
+  despotism traits = { } }
+  
+  set_party_name = { 
+  ideology = fascism
+  long_name = "Biron family"
+  name = "Biron family"  }
+  
+  set_cosmetic_tag = DUT
+  
+  }  
+}  
+  focus = {
+  id = "Gustavs Celmiņš"
+  icon = GFX_focus_lat_perkonkrusts
+  prerequisite = { focus = "Paramilitarism" }
+  x = 14
+  y = 5
+  cost = 5
+  mutually_exclusive = { focus = "Biron family" }
+  available = { 
+  has_government = fascism }
+  completion_reward = {
+  
+  add_war_support = 0.1
+  add_political_power = 150
+
+  }   
+}
+
+focus = {
+  id = "Communist propaganda"
+  icon = GFX_goal_generic_propaganda
+  prerequisite = { focus = "Political Commissars" }
+  x = 12
+  y = 5
+  cost = 10
+  completion_reward = {
+  
+ 
+  add_popularity = { ideology = communism popularity = 0.5 }
+
+  }
+}  
+  focus = {
+  id = "Befriend Lithuania"
+  icon = GFX_focus_generic_aluminum
+  prerequisite = { focus = "Foreign Expeditions" }
+  x = 20
+  y = 5
+  cost = 10
+  available = {
+  country_exists = LIT
+			NOT = {
+				has_war_with = LIT
+			}`
+  has_government = democracy }
+  bypass = {
+			LIT = {
+				OR = {
+					NOT = { country_exists = LIT }
+					has_capitulated = yes
+				}
+			}
+		}
+  completion_reward = {
+  
+  diplomatic_relation = { country = LIT relation = non_aggression_pact }
+  add_political_power = 150
+  give_guarantee = LIT
+  give_military_access = LIT
+
+  } 
+}  
+  focus = {
+  id = "Baltic Entente"
+  icon = GFX_focus_generic_little_entente
+  prerequisite = { focus = "Befriend Estonia" }
+  prerequisite = { focus = "Befriend Lithuania" }
+  x = 21
+  y = 6
+  cost = 10
+  completion_reward = {
+  
+  create_faction = "Baltic Entente"
+  add_to_faction = LIT
+  add_to_faction = EST
+
+  }
+}
+
+focus = {
+  id = "Baltic Germans"
+  icon = GFX_goal_generic_national_unity
+  prerequisite = { focus = "Biron family" }
+  x = 17
+  y = 6
+  cost = 10
+  completion_reward = {
+  
+  add_manpower = 10000
+  
+  }
+}
+
+focus = {
+  id = "Military Youth"
+  icon = GFX_focus_prc_infiltration
+  prerequisite = { focus = "Gustavs Celmiņš" }
+  x = 13
+  y = 6
+  cost = 10
+  completion_reward = {
+  
+  add_popularity = { ideology = fascism popularity = 0.9 }
+  add_ideas = military_youth_focus
+
+  }
+}
+
+focus = {
+  id = "Make Livonia Great Again"
+  icon = GFX_focus_lat_kingdom
+  prerequisite = { focus = "Baltic Germans" }
+  x = 15
+  y = 7
+  cost = 10
+  available = {
+  country_exists = EST
+			NOT = {
+				has_war_with = EST
+			}`
+  has_government = democracy }
+  bypass = {
+			EST = {
+				OR = {
+					NOT = { country_exists = EST }
+					has_capitulated = yes
+				}
+			}
+		}
+  completion_reward = {
+  
+  annex_country = { target = EST }
+  set_cosmetic_tag = LIO
+  add_political_power = 50
+  
+  
+  }
+}
+
+focus = {
+  id = "Should the Baltic States unite?"
+  icon = GFX_focus_lat_kingdom
+  prerequisite = { focus = "Make Livonia Great Again" }
+  x = 15
+  y = 8
+  cost = 10
+  available = {
+  country_exists = LIT
+			NOT = {
+				has_war_with = LIT
+			}`
+  has_government = democracy }
+  bypass = {
+			LIT = {
+				OR = {
+					NOT = { country_exists = LIT }
+					has_capitulated = yes
+				}
+			}
+		}
+  completion_reward = {
+  
+  annex_country = { target = LIT }
+  set_cosmetic_tag = ELT
+  add_political_power = 50
+  
+  }
+}
+
+focus = {
+  id = "Kurzeme or Kurland?"
+  icon = GFX_focus_generic_strike_at_democracy1
+  prerequisite = { focus = "Should the Baltic States unite?" }
+  x = 15
+  y = 9
+  cost = 10
+  completion_reward = {
+  
+  190 = { set_state_name = "Kurland" }
+  12 = { set_state_name = "Livland" }
+  }
+}
+
+focus = {
+  id = "We want our colonies back"
+  icon = GFX_focus_lat_kolonijas
+  prerequisite = { focus = "Kurzeme or Kurland?" }
+  x = 15
+  y = 10
+  cost = 10
+  completion_reward = {
+  
+  LAT = { set_state_controller = 691 }
+  LAT = { set_state_controller = 701 }
+  
+  }
+}
+
+focus = {
+  id = "Duke Jacob's fleet."
+  icon = GFX_focus_lat_flote
+  prerequisite = { focus = "Baltic Germans" }
+  x = 17
+  y = 7
+  cost = 10
+  completion_reward = {
+  
+  190 = {
+	  add_building_construction = {
+	  type = dockyard
+	  level = 2 
+	  instant_build = yes } }
+  
+  } 
+}
+
+focus = {
+  id = "Our security"
+  icon = GFX_goal_fortify_the_westwall
+  prerequisite = { focus = "Duke Jacob's fleet." }
+  x = 17
+  y = 8
+  cost = 10
+  completion_reward = {
+  
+  12 = { 
+  set_building_level = { 
+  type = bunker 
+  level = 2 
+  province = {
+  all_provinces = yes 
+  limit_to_border = yes 
+  level < 2	} }}
+  }
+}
+
+focus = {
+  id = "Jacob Jugend"
+  icon = GFX_goal_generic_political_pressure
+  prerequisite = { focus = "Our security" }
+  x = 17
+  y = 9
+  cost = 10
+  completion_reward = {
+  
+  add_ideas = military_youth_focus
+  
+  }
+}
+
+focus = {
+  id = "Merkentalism"
+  icon = GFX_focus_jacob_money
+  prerequisite = { focus = "Jacob Jugend" }
+  x = 17
+  y = 10
+  cost = 10
+  completion_reward = {
+  
+  190 = {
+	  add_extra_state_shared_building_slots = 3
+	  add_building_construction = {
+	  type = industrial_complex 
+	  level = 3 
+	  instant_build = yes } }
+	  
+	  12 = {
+	  add_extra_state_shared_building_slots =3
+	  add_building_construction = {
+	  type = industrial_complex 
+	  level = 3 
+	  instant_build = yes } }
+  
+  }   
+}
+
+focus = {
+  id = "Prepare for WW2"
+  icon = GFX_focus_lat_ww2
+  prerequisite = { focus = "Military Youth" }
+  x = 13
+  y = 7
+  cost = 10
+  completion_reward = {
+  
+  12 = { 
+  set_building_level = { 
+  type = bunker 
+  level = 2 
+  province = {
+  all_provinces = yes 
+  limit_to_border = yes 
+  level < 2	} }}
+
+  }
+}
+
+focus = {
+  id = "Marine Schools"
+  icon = GFX_goal_generic_amphibious_assault
+  prerequisite = { focus = "Prepare for WW2" }
+  x = 13
+  y = 8
+  cost = 10
+  completion_reward = {
+  
+ 190 = {
+	  add_building_construction = {
+	  type = dockyard
+	  level = 2 
+	  instant_build = yes } }
+  
+  }
+}
+
+focus = {
+  id = "We found oil?"
+  icon = GFX_focus_lat_nafta
+  prerequisite = { focus = "Marine Schools" }
+  x = 13
+  y = 9
+  cost = 10
+  completion_reward = {
+  
+  	add_resource = { type = oil amount = 1 state = 190 }
+	add_resource = { type = oil amount = 1 state = 12 }
+
+  }
+}
+
+focus = {
+  id = "Latvian-Lithuanian War"
+  icon = GFX_focus_lat_war_lithuania
+  prerequisite = { focus = "Military Youth" }
+  x = 11
+  y = 8
+  cost = 10
+  available = {
+  country_exists = LIT
+			NOT = {
+				has_war_with = LIT
+			}`
+  has_government = democracy }
+  bypass = {
+			LIT = {
+				OR = {
+					NOT = { country_exists = LIT }
+					has_capitulated = yes
+				}
+			}
+		}
+  completion_reward = {
+  
+  create_wargoal = { type = annex_everything target = LIT }
+
+  }
+}
+
+focus = {
+  id = "Latvian-Estonian War"
+  icon = GFX_focus_lat_war_estonia
+  prerequisite = { focus = "Latvian-Lithuanian War" }
+  x = 11
+  y = 9
+  cost = 10
+  available = {
+  country_exists = EST
+			NOT = {
+				has_war_with = EST
+			}`
+  has_government = democracy }
+  bypass = {
+			EST = {
+				OR = {
+					NOT = { country_exists = EST }
+					has_capitulated = yes
+				}
+			}
+		}
+  completion_reward = {
+  
+  create_wargoal = { type = annex_everything target = EST }
+
+  }
+}
+
+focus = {
+  id = "Latvian-Polish War"
+  icon = GFX_focus_lat_war_poland
+  prerequisite = { focus = "Latvian-Estonian War" }
+  x = 11
+  y = 10
+  cost = 10
+  available = {
+  country_exists = POL
+			NOT = {
+				has_war_with = POL
+			}`
+  has_government = democracy }
+  bypass = {
+			POL = {
+				OR = {
+					NOT = { country_exists = POL }
+					has_capitulated = yes
+				}
+			}
+		}
+  completion_reward = {
+  
+  create_wargoal = { type = annex_everything target = POL }
+
+  }
+}
+
+	focus = {
+	  id = "Aviation Effort"
+	  icon = GFX_goal_generic_build_airforce
+	  x = 25
+	  y = 4
+	  cost = 10
+	  completion_reward = {
+	  
+      air_experience = 25
+
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+	  } 
+
+	}
+
+	focus = {
+		id = "Bomber Focus"
+		icon = GFX_goal_generic_air_bomber
+		prerequisite = { focus = "Aviation Effort" }
+		x = 19
+		y = 5
+		relative_position_id = aviation_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 2
+				technology = strategic_bomber1
+				technology = strategic_bomber2
+				technology = strategic_bomber3
+				category = tactical_bomber
+			}
+		}
+		
+	}
+focus = {
+		id = "Aviation Effort II"
+		icon = GFX_goal_generic_air_doctrine
+		prerequisite = { focus = "Bomber Focus" }
+		x = 18
+		y = 5`
+		relative_position_id = bomber_focus
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		complete_tooltip = {
+			air_experience = 25
+			if = { limit = { has_country_flag = aviation_effort_2_AB }
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name =  air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+		completion_reward = {
+			air_experience = 25
+			if = {
+				limit = {
+					capital_scope = {
+						OR = {
+							NOT = { is_controlled_by = ROOT }
+							NOT = {
+								free_building_slots = {
+									building = air_base
+									size > 1
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_2_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						is_controlled_by = ROOT
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}				
+					ROOT = { set_country_flag = aviation_effort_2_AB }
+				}
+			}
+			add_tech_bonus = {
+				name =  air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+focus = {
+		id = "CAS Effort"
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = "Aviation Effort II" }
+		x = 19
+		y = 5
+		relative_position_id = aviation_effort_2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+	focus = {
+		id = "Rocket Effort"
+		icon = GFX_focus_rocketry
+		prerequisite = { focus = "NAV Effort" }
+		x = 21
+		y = 4
+		relative_position_id = aviation_effort_2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = jet_rocket_bonus
+				ahead_reduction = 0.5
+				uses = 2
+				category = rocketry
+				category = jet_technology
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.25
+				always = yes
+			}
+		}
+	}
+	focus = {
+		id = "NAV Effort"
+		icon = GFX_goal_generic_air_naval_bomber
+		prerequisite = { focus = "Aviation Effort" }
+		x = 21
+		y = 3
+		relative_position_id = aviation_effort_2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = nav_bomber_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+focus = {
+		id = "Naval Effort"
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 25
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+		}
+
+		complete_tooltip = {
+			navy_experience = 25
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		
+		completion_reward = {
+			navy_experience = 25
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = "Flexible Navy"
+		icon = GFX_goal_generic_build_navy
+		prerequisite = { focus = "Naval Effort" }
+		mutually_exclusive = { focus = large_navy }
+		x = 15
+		y = 1
+		relative_position_id = naval_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
+	}
+
+	focus = {
+		id = "Large Navy"
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = "Naval Effort" }
+		x = 17
+		y = 1
+		relative_position_id = naval_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = fleet_in_being_bonus
+				bonus = 0.5
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
+	}
+
+	focus = {
+		id = "Submarine Effort"
+		icon = GFX_goal_generic_navy_submarine
+		prerequisite = { focus = "Large Navy" }
+		x = 18
+		y = 1
+		relative_position_id = flexible_navy
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+			}
+		}
+	}
+
+	focus = {
+		id = "Cruiser Effort"
+		icon = GFX_goal_generic_navy_cruiser
+		prerequisite = { focus = "Flexible Navy" }
+		x = 14
+		y = 1
+		relative_position_id = large_navy
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = improved_light_cruiser
+				technology = advanced_light_cruiser
+				technology = improved_heavy_cruiser
+				technology = advanced_heavy_cruiser
+			}
+		}
+	}
+
+	focus = {
+		id = "Destroyer Effort"
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = { focus = "Submarine Effort" }
+		x = 18
+		y = 1
+		relative_position_id = submarine_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = early_destroyer
+				technology = basic_destroyer
+				technology = improved_destroyer
+				technology = advanced_destroyer
+			}
+		}
+	}
+
+	focus = {
+		id = "Capital ships effort"
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = "Cruiser Effort" }
+		x = 14
+		y = 1
+		relative_position_id = cruiser_effort
+		cost = 10
+
+		available_if_capitulated = yes
+
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				all_owned_state = {
+					OR = {
+						is_coastal = no
+						dockyard < 1
+					}
+				}
+			}
+		}
+
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = basic_battlecruiser
+				technology = basic_battleship
+				technology = improved_battleship
+				technology = advanced_battleship
+				technology = heavy_battleship
+				technology = heavy_battleship2
+				technology = early_carrier
+				technology = basic_carrier
+				technology = improved_carrier
+				technology = advanced_carrier
+			}
+		}
+	}
+}

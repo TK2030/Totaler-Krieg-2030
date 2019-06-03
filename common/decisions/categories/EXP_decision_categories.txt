@@ -1,0 +1,21 @@
+ ###########
+## Generic ##
+ ###########
+
+EXP_monarchism_on_the_rise = {
+	
+	icon = generic_monarchism
+	
+	allowed = {
+		NOT = { tag = ETH } #They have their own special verson
+	}
+}
+
+EXP_socialism_on_the_rise = {
+	
+	icon = generic_political_actions
+	
+	allowed = {
+		always = yes
+	}
+}

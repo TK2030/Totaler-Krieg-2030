@@ -1,0 +1,149 @@
+# Age Laws
+	ideas = {
+	
+	education_budget = {
+		law = yes
+		
+		education_budget1 = {
+			removal_cost = -1
+			level = 7
+			
+			available = {
+			}
+
+			modifier = {
+				research_time_factor = 0.09
+				planning_speed = -0.020
+				industrial_capacity_factory = 0.09
+				industrial_capacity_dockyard = 0.09
+				max_planning = -0.020
+				political_power_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+			
+			}
+			
+			education_budget2 = {
+			removal_cost = -1
+			level = 6
+			
+			available = {
+			}
+
+			modifier = {
+				research_time_factor = 0.06
+				planning_speed = -0.015
+				industrial_capacity_factory = 0.06
+				industrial_capacity_dockyard = 0.06
+				max_planning = -0.015
+				political_power_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			education_budget3 = {
+			removal_cost = -1
+			level = 5
+			
+			available = {
+			}
+
+			modifier = {
+				research_time_factor = 0.03
+				planning_speed = 0.015
+				industrial_capacity_factory = 0.03
+				industrial_capacity_dockyard = 0.03
+				max_planning = 0.015
+				political_power_factor = 0.025
+				consumer_goods_factor = 0.01
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			education_budget4 = {
+			removal_cost = -1
+			default = yes
+			level = 4
+			
+			available = {
+			}
+
+			modifier = {
+				#research_time_factor = 0.01
+				#planning_speed = 0.0275
+				#industrial_capacity_factory = 0.01
+				#industrial_capacity_dockyard = 0.01
+				#max_planning = 0.0275
+				#political_power_factor = 0.025
+				#consumer_goods_factor = 0.015
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			education_budget5 = {
+			removal_cost = -1
+			level = 3
+			
+			available = {
+			}
+
+			modifier = {
+				research_time_factor = -0.04
+				planning_speed = 0.04
+				industrial_capacity_factory = -0.04
+				industrial_capacity_dockyard = -0.04
+				max_planning = 0.04
+				political_power_factor = -0.025
+				consumer_goods_factor = 0.02
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			education_budget6 = {
+			removal_cost = -1
+			level = 2
+			
+			available = {
+			}
+
+			modifier = {
+				research_time_factor = -0.08
+				planning_speed = 0.08
+				max_planning = 0.08
+				industrial_capacity_factory = -0.08
+				industrial_capacity_dockyard = -0.08
+				consumer_goods_factor = 0.04
+				political_power_factor = -0.05
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			education_budget7 = {
+			removal_cost = -1
+			level = 1
+			
+			available = {
+			}
+
+			modifier = {
+				research_time_factor = -0.12
+				planning_speed = 0.12
+				max_planning = 0.12
+				industrial_capacity_factory = -0.12
+				industrial_capacity_dockyard = -0.12
+				consumer_goods_factor = 0.06
+				political_power_factor = -0.10
+			}
+			
+			cancel_if_invalid = no
+			}
+
+	}
+}
+### EOF ###

@@ -1,0 +1,109 @@
+# Age Laws
+	ideas = {
+	
+	health_budget = {
+		law = yes
+		
+		health_budget1 = {
+			removal_cost = -1
+			level = 7
+			
+			available = {
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			
+			}
+			
+			health_budget2 = {
+			removal_cost = -1
+			level = 6
+			
+			available = {
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			health_budget3 = {
+			removal_cost = -1
+			level = 5
+			
+			available = {
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			health_budget4 = {
+			removal_cost = -1
+			default = yes
+			level = 4
+			
+			available = {
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			health_budget5 = {
+			removal_cost = -1
+			level = 3
+			
+			available = {
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			health_budget6 = {
+			removal_cost = -1
+			level = 2
+			
+			available = {
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+			
+			health_budget7 = {
+			removal_cost = -1
+			level = 1
+			
+			available = {
+			}
+
+			modifier = {
+
+			}
+			
+			cancel_if_invalid = no
+			}
+
+	}
+}
+### EOF ###

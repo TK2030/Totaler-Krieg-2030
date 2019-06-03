@@ -1,0 +1,14 @@
+monarchism_on_the_rise = {
+	icon = generic_fascism
+	
+}
+
+theocratic_on_the_rise = {
+	icon = generic_fascism
+	
+}
+
+neutrality_on_the_rise = {
+	icon = generic_fascism
+	
+}

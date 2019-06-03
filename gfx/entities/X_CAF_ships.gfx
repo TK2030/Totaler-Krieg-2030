@@ -1,0 +1,132 @@
+objectTypes = {
+
+
+	####
+	# BATTLESHIP
+	####
+	pdxmesh = {
+		name = "GER_CAF_battleship_mesh"
+		file = "gfx/models/units/ships/GER_CAF_battleship.mesh"
+		
+		animation = { id = "idle"			type = "ger_battleship_idle_animation" }
+		animation = { id = "attack"			type = "ger_battleship_attack_animation" }
+		animation = { id = "damaged_attack"	type = "ger_battleship_attack_animation" }
+		animation = { id = "death"			type = "ger_battleship_death_animation" }	
+	}
+####
+# bismarck
+####
+	pdxmesh = {
+		name = "bismarck_battleship_mesh"
+		file = "gfx/models/units/ships/bismarck_battleship.mesh"
+		
+		animation = { id = "idle"			type = "bismarck_battleship_idle_animation" }
+		animation = { id = "attack"			type = "bismarck_battleship_attack_animation" }
+		animation = { id = "defend"			type = "bismarck_battleship_defend_animation" }
+		animation = { id = "damaged_attack"	type = "bismarck_battleship_attack_animation" }
+		animation = { id = "damaged_defend"	type = "bismarck_battleship_defend_animation" }
+		animation = { id = "death"			type = "bismarck_battleship_death_animation" }
+		
+	}
+	
+	####
+	# SUPER HEAVY BATTLESHIP
+	####
+	pdxmesh = {
+		name = "GER_CAF_super_heavy_battleship_mesh"
+		file = "gfx/models/units/ships/GER_CAF_super_heavy_battleship.mesh"
+		
+		animation = { id = "idle"			type = "ger_battleship_idle_animation" }
+		animation = { id = "attack"			type = "ger_battleship_attack_animation" }
+		animation = { id = "damaged_attack"	type = "ger_battleship_attack_animation" }
+		animation = { id = "death"			type = "ger_battleship_death_animation" }	
+		
+	
+	}
+	
+	####
+	# CARRIER
+	####
+	pdxmesh = {
+		name = "GER_CAF_carrier_mesh"
+		file = "gfx/models/units/ships/GER_CAF_carrier.mesh"
+		
+		animation = { id = "idle"			type = "generic_carrier_idle_animation" }
+		animation = { id = "death"			type = "generic_carrier_death_animation" }
+		animation = { id = "death2"			type = "generic_carrier_death2_animation" }
+	}	
+	
+	####
+	# DESTROYER
+	####	
+	pdxmesh = {
+		name = "GER_CAF_destroyer_mesh"
+		file = "gfx/models/units/ships/GER_CAF_destroyer.mesh"
+		
+		animation = { id = "idle"			type = "generic_destroyer_idle_animation" }
+		animation = { id = "attack"			type = "generic_destroyer_attack_animation" }
+		animation = { id = "defend"			type = "generic_destroyer_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_destroyer_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_destroyer_defend_animation" }
+		animation = { id = "death"			type = "generic_destroyer_death_animation" }
+		
+	}
+	
+	####
+	# HEAVY CRUISER
+	####
+	pdxmesh = {
+		name = "GER_CAF_heavy_cruiser_mesh"
+		file = "gfx/models/units/ships/GER_CAF_heavy_cruiser.mesh"
+		
+		animation = { id = "idle"			type = "ger_heavy_cruiser_idle_animation" }
+		animation = { id = "attack"			type = "ger_heavy_cruiser_attack_animation" }
+		animation = { id = "defend"			type = "ger_heavy_cruiser_defend_animation" }
+		animation = { id = "damaged_attack"	type = "ger_heavy_cruiser_attack_animation" }
+		animation = { id = "damaged_defend"	type = "ger_heavy_cruiser_defend_animation" }
+		animation = { id = "death"			type = "ger_heavy_cruiser_death_animation" }	
+	}
+	
+	####
+	# LIGHT CRUISER
+	####
+	pdxmesh = {
+		name = "GER_CAF_light_cruiser_mesh"
+		file = "gfx/models/units/ships/GER_CAF_crusier.mesh"
+			
+
+	}
+	
+
+	####
+	# SUBMARINE
+	####	
+	pdxmesh = {
+		name = "GER_CAF_submarine_mesh"
+		file = "gfx/models/units/ships/GER_CAF_submarine.mesh"
+		
+		animation = { id = "idle"			type = "generic_submarine_idle_animation" }
+		animation = { id = "attack"			type = "generic_submarine_attack_animation" }
+		animation = { id = "defend"			type = "generic_submarine_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_submarine_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_submarine_defend_animation" }
+		animation = { id = "death"			type = "generic_submarine_death_animation" }
+	}
+	
+		
+	####
+	# BATTLE CRUISER
+	####
+	pdxmesh = {
+		name = "GER_CAF_battle_cruiser_mesh"
+		file = "gfx/models/units/ships/GER_CAF_battle_cruiser.mesh"
+		
+		animation = { id = "idle"			type = "ger_battle_cruiser_idle_animation" }
+		animation = { id = "attack"			type = "ger_battle_cruiser_attack_animation" }
+		animation = { id = "defend"			type = "ger_battle_cruiser_defend_animation" }
+		animation = { id = "damaged_attack"	type = "ger_battle_cruiser_attack_animation" }
+		animation = { id = "damaged_defend"	type = "ger_battle_cruiser_defend_animation" }
+		animation = { id = "death"			type = "ger_battle_cruiser_death_animation" }	
+	}
+	
+}

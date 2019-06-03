@@ -1,0 +1,8 @@
+ai_historical_focus_list_GRE = {
+	ai_national_focuses = {
+	gre_appoint_metaxas
+	GRE_Fourth_of_August
+	GRE_EON
+	GRE_THC
+	}
+}

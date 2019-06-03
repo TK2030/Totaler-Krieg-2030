@@ -1,0 +1,67 @@
+ideas = {
+
+	political_advisor = {
+	
+		cleric = {
+		
+		allowed = {
+		NOT = { tag = GER }
+				
+				NOT = {
+					has_available_idea_with_traits = { idea = theocratic_supporter limit = 1 }
+				}
+				
+			}
+			
+			#picture = generic_political_advisor_europe_4
+			
+			#allowed = { always = yes }
+			
+			traits = { theocratic_supporter }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		monarchist = {
+			
+			#picture = generic_political_advisor_europe_4
+			
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = royal_supporter limit = 1 }
+				}
+				
+			}
+			
+			#allowed = { always = yes }
+			
+			traits = { royal_supporter }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		authoritarian = {
+			
+			#picture = generic_political_advisor_europe_3
+			
+			#allowed = { always = yes }
+			
+			allowed = {
+				NOT = {
+					has_available_idea_with_traits = { idea = authoritarian_supporter limit = 1 }
+				}
+				
+			}
+			
+			traits = { authoritarian_supporter }
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

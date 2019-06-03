@@ -1,0 +1,76 @@
+animation = {
+	name = "ger_battleship_death_animation"
+	file = "ger_battleship_death.anim"
+}
+animation = {
+	name = "ger_battleship_attack_animation"
+	file = "ger_battleship_attack.anim"
+}
+animation = {
+	name = "ger_battleship_idle_animation"
+	file = "ger_battleship_idle.anim"
+}
+###
+animation = {
+	name = "ger_heavy_cruiser_idle_animation"
+	file = "ger_heavy_cruiser_idle.anim"
+}
+
+animation = {
+	name = "ger_heavy_cruiser_attack_animation"
+	file = "ger_heavy_cruiser_attack.anim"
+}
+
+animation = {
+	name = "ger_heavy_cruiser_defend_animation"
+	file = "ger_heavy_cruiser_defend.anim"
+}
+
+animation = {
+	name = "ger_heavy_cruiser_death_animation"
+	file = "ger_heavy_cruiser_death.anim"
+}
+
+####
+animation = {
+	name = "ger_battle_cruiser_death_animation"
+	file = "ger_battle_cruiser_death.anim"
+}
+animation = {
+	name = "ger_battle_cruiser_attack_animation"
+	file = "ger_battle_cruiser_attack.anim"
+}
+
+animation = {
+	name = "ger_battle_cruiser_defend_animation"
+	file = "ger_battle_cruiser_defend.anim"
+}
+
+animation = {
+	name = "ger_battle_cruiser_idle_animation"
+	file = "ger_battle_cruiser_idle.anim"
+}
+
+#############
+# BISMARCK
+#############
+
+animation = {
+	name = "bismarck_battleship_idle_animation"
+	file = "bismarck_battleship_idle.anim"
+}
+
+animation = {
+	name = "bismarck_battleship_attack_animation"
+	file = "bismarck_battleship_attack.anim"
+}
+
+animation = {
+	name = "bismarck_battleship_defend_animation"
+	file = "bismarck_battleship_defend.anim"
+}
+
+animation = {
+	name = "bismarck_battleship_death_animation"
+	file = "bismarck_battleship_death.anim"
+}

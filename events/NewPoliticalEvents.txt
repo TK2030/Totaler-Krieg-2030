@@ -1,0 +1,65 @@
+﻿###########################
+# New Political Events
+###########################
+
+add_namespace = newpolitical
+
+### > 50% support
+# political.1 Monarchism
+
+country_event = {
+	id = newpolitical.1
+	title = newpolitical.1.t
+	desc = newpolitical.1.d
+	picture = GFX_report_event_fascist_gathering
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = newpolitical.1.c
+		set_politics = {
+			ruling_party = monarchism
+			elections_allowed = no
+		}
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = newpolitical.2
+	title = newpolitical.2.t
+	desc = newpolitical.2.d
+	picture = GFX_report_event_fascist_gathering
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = newpolitical.2.c
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = newpolitical.3
+	title = newpolitical.3.t
+	desc = newpolitical.3.d
+	picture = GFX_report_event_fascist_gathering
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = newpolitical.3.c
+		set_politics = {
+			ruling_party = theocratic
+			elections_allowed = no
+		}
+		add_stability = -0.05
+	}
+}

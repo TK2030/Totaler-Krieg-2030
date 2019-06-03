@@ -1,0 +1,9 @@
+ai_historical_focus_list_ALB = {
+	ai_national_focuses = {
+	ALB_political_reform
+	vive_le_roi
+	constitution_rule
+	righteous_rule_focus
+	king_army
+	}
+}

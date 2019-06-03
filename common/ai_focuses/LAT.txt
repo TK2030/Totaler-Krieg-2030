@@ -1,0 +1,7 @@
+ai_historical_focus_list_LAT = {
+	ai_national_focuses = {
+	Political Effort
+	Liberty Ethos
+	Neutrality  Focus
+	}
+}

@@ -1,0 +1,74 @@
+﻿##### August Storm
+
+add_namespace = as_politics
+
+
+# Vampirized Economy
+country_event = {															
+	id = as_politics.1
+	title = as_politics.1.t
+	desc = as_politics.1.d
+	picture = GFX_report_event_german_politician_speech
+	
+	trigger = {
+		NOT = { has_country_flag = vampirized_economy_flag }	
+		OR = {	
+			is_subject = yes
+			is_puppet = yes
+			OVERLORD = { original_tag = ENG } 
+		}
+		NOT = { 
+			original_tag = CAN 
+			OVERLORD = { original_tag = ENG } 
+		}			
+		NOT = {
+			original_tag = AST 
+			OVERLORD = { original_tag = ENG } 
+		}			
+		NOT = {
+			original_tag = NZL 
+			OVERLORD = { original_tag = ENG } 
+		}
+		NOT = {
+			original_tag = SAF 
+			OVERLORD = { original_tag = ENG } 
+		}				
+	}							
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = {
+		name = as_politics.1.option_a
+		ai_chance = { factor = 100 }
+		set_country_flag = vampirized_economy_flag
+		add_ideas = vampirized_economy
+	}
+
+}
+
+country_event = {															
+	id = as_politics.2
+	title = as_politics.2.t
+	desc = as_politics.2.d
+	picture = GFX_report_event_german_politician_speech
+	
+	trigger = {
+		NOT = { is_subject = yes }
+		NOT = { is_puppet = yes }
+		has_country_flag = vampirized_economy_flag
+		has_idea = vampirized_economy
+	}
+	
+	mean_time_to_happen = {
+		days = 40
+	}
+	
+	option = {
+		name = as_politics.2.option_a
+		ai_chance = { factor = 100 }
+		clr_country_flag = vampirized_economy_flag
+		remove_ideas = vampirized_economy
+	}
+}
