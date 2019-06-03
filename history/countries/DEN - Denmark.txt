@@ -28,7 +28,7 @@ add_ideas = {
 	
 	cons_one
 	foreign_volunteers
-	mob_reserve
+	
 	train_medium
 	officer_train_low
 	security_liberty_first

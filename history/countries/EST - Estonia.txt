@@ -25,7 +25,7 @@ add_ideas = {
 		
 		volunteer_only
 		foreign_volunteers
-		mob_reserve
+		
 		train_medium
 		age_19
 		officer_train_none

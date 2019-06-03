@@ -89,7 +89,7 @@ if = {
 		
 		volunteer_only
 		foreign_volunteers
-		mob_reserve
+		
 		train_medium
 		age_19
 		security_minor_restrictions

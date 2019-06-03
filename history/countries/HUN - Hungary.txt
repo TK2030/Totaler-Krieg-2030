@@ -20,7 +20,7 @@ add_ideas = {
 		
 		cons_one
 		foreign_volunteers
-		mob_reserve
+		
 		train_low
 		age_18
 		officer_train_none
