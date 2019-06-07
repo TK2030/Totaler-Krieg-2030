@@ -73,27 +73,17 @@ add_ideas = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 40
-		}
-		
-		communism = {
-			popularity = 25
-			banned = yes #default is no
-		}
-	}
-	
 	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+set_popularities = {
+		fascism = 40
+		communism = 25
+		democratic = 25
+	}
 
 create_country_leader = {
 	name = "Josef Terboven"

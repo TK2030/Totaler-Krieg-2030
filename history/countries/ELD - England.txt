@@ -101,30 +101,16 @@ set_technology = {
 }
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 70
-		}
-		
-		fascism = {
-			popularity = 20
-		}
-
-		neutrality = {
-			popularity = 10
-		}
-		
-		communism = {
-			popularity = 0
-			banned = yes #default is no
-		}
-	}
-	
 	ruling_party = democratic
 	election_frequency = 48
 	elections_allowed = no
 
+}
+
+set_popularities = {
+democratic = 40
+fascism = 20
+neutrality = 10
 }
 
 add_ideas = {

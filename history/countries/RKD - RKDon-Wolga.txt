@@ -72,23 +72,11 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 40
-		}
-		
-		communism = {
-			popularity = 25
-			banned = yes #default is no
-		}
+set_popularities = {
+		fascism = 40
+		communism = 25
+		democratic = 25
 	}
-}
 
 create_country_leader = {
 	name = "Dietrich Klagges"

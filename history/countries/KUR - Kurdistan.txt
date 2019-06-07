@@ -72,46 +72,20 @@ set_convoys = 10
 		partial_economic_mobilisation
 	}
 
-1939.1.1 = {
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_convoys = 50		
-}
 
 set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 30
-		}
-
-		fascism = {
-			popularity = 40
-		}
-		
-		communism = {
-			popularity = 20
-		}
-		neutrality = {
-			popularity = 10
-		}
-	}
-
 	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 	
+}
+
+set_popularities = {
+democratic = 30
+fascism = 40
+communism = 20
+neutrality = 10	
 }
 
 create_country_leader = {
