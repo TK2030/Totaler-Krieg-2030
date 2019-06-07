@@ -2,6 +2,488 @@
 
 spriteTypes = {
 
+SpriteType = {
+		name = "GFX_destroyer_5_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_destroyer_6_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_destroyer_7_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_destroyer_8_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_destroyer_9_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_destroyer_10_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_cruiser_5_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_cruiser_6_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_cruiser_7_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_cruiser_8_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_cruiser_9_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_light_cruiser_10_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_cruiser_5_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_cruiser_6_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_cruiser_7_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_cruiser_8_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_cruiser_9_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_heavy_cruiser_10_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_carrier_5_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_carrier_6_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_carrier_7_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_carrier_8_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_carrier_9_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_carrier_10_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_5_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_6_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_7_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_8_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_9_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_submarine_10_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_battleship_5_medium"
+		texturefile = "gfx/interface/technologies/ships/BATTLESHIP.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_battleship_6_medium"
+		texturefile = "gfx/interface/technologies/ships/BATTLESHIP2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_destroyer_x1_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_x2_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_x3_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_x4_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_x5_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_x6_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_x1_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_x2_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_x3_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_x4_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_x5_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_x6_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_x1_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_x2_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_x3_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_x4_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_x5_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_x6_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_x1_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_x2_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_x3_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_x4_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_x5_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_x6_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_x1_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_x2_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_x3_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_x4_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_x5_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_x6_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_battleship_x1_medium"
+		texturefile = "gfx/interface/technologies/ships/BATTLESHIP.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_battleship_x2_medium"
+		texturefile = "gfx/interface/technologies/ships/BATTLESHIP2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_mtg1_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_mtg2_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_mtg3_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_mtg4_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_mtg5_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_destroyer_mtg6_medium"
+		texturefile = "gfx/interface/technologies/ships/DESTROYER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_mtg1_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_mtg2_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_mtg3_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_mtg4_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_mtg5_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_light_cruiser_mtg6_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_mtg1_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_mtg2_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_mtg3_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_mtg4_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_mtg5_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_heavy_cruiser_mtg6_medium"
+		texturefile = "gfx/interface/technologies/ships/CRUISER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_mtg1_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_mtg2_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_mtg3_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_mtg4_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_mtg5_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_carrier_mtg6_medium"
+		texturefile = "gfx/interface/technologies/ships/CARRIER_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_mtg1_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_1955.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_mtg2_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_1970.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_mtg3_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_1985.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_mtg4_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_2000.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_mtg5_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_2015.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_submarine_mtg6_medium"
+		texturefile = "gfx/interface/technologies/ships/SUBMARINE_2030.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_battleship_mtg1_medium"
+		texturefile = "gfx/interface/technologies/ships/BATTLESHIP.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_battleship_mtg2_medium"
+		texturefile = "gfx/interface/technologies/ships/BATTLESHIP2.dds"
+	}
+	
+
+
 ###------> Industry <><> <><> <><> <><> <><>
 	
 	SpriteType = {
