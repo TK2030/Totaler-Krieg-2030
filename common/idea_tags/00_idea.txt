@@ -61,10 +61,6 @@ idea_categories = {
 		slot = political_advisor
 		slot = political_advisor
 		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
 
 
 		cost = 150
@@ -79,11 +75,8 @@ idea_categories = {
 		slot = high_command
 		slot = high_command
 		slot = high_command
-		slot = mobilization_laws
-		slot = age_laws
-		slot = officer_training_standards
-		slot = training_law
-		slot = recruitment_laws
+		slot = theorist
+
 
 		cost = 150
 		removal_cost = 0
@@ -91,17 +84,16 @@ idea_categories = {
 	
 	research_production = {
 		slot = era_traits
-		slot = tank_manufacturer
+		slot = mobilization_laws
+		slot = age_laws
+		slot = officer_training_standards
+		slot = training_law
+		slot = recruitment_laws
 		slot = tank_manufacturer
 		slot = naval_manufacturer
-		slot = naval_manufacturer
-		slot = aircraft_manufacturer
 		slot = aircraft_manufacturer
 		slot = materiel_manufacturer
-		slot = materiel_manufacturer
 		slot = industrial_concern
-		slot = industrial_concern
-		slot = theorist
 		
 		cost = 150
 		removal_cost = 0
