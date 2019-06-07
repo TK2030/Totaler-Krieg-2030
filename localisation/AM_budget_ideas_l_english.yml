@@ -1,14 +1,10 @@
 ﻿l_english:
-
-government_budget:0 "National Budget"
 government_policy:0 "Government Policy"
-government_staff:0 "Cabinet of Ministers"
+government_budget:0 "National Budget"
 government:0 "Cabinet of Ministers"
-military_staff:0 "Armed Forces"
-army_policy:0 "Armed Forces"
+military_staff:0 "High Command"
+research_production:0 "Armed Forces R&D"
 nation_traits:0 "National Character"
-research_development:0 "Reserach & Development"
-research_production:0 "Reserach & Development"
 
 education_budget:0 "Education Budget"
 education_budget1:0 "No Education Spending"
