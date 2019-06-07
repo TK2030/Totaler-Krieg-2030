@@ -1763,23 +1763,14 @@ country_event = { # Quisling tries to declare himself Prime Minister
 					limit = { original_tag = NOR has_government = fascism }
 					GER = { add_to_faction = PREV }
 					set_capital = 110
+					set_popularities = {
+					fascism = 90
+					neutrality = 5
+					democratic = 5
+					}
 					set_politics = {
 						ruling_party = fascism
 						elections_allowed = no
-						parties = {
-							neutrality = {
-								popularity = 5
-							}
-							democratic = {
-								popularity = 5
-							}
-							fascism = {
-								popularity = 90
-							}
-							communism = {
-								popularity = 0
-							}
-						}
 					}
 					set_cosmetic_tag = NOR_quisling
 					if = {
@@ -1868,23 +1859,14 @@ country_event = { # Quisling tries to declare himself Prime Minister
 					}
 					GER = { add_to_faction = PREV }
 					set_capital = 110
+					set_popularities = {
+					fascism = 90
+					neutrality = 5
+					democratic = 5
+					}
 					set_politics = {
 						ruling_party = fascism
 						elections_allowed = no
-						parties = {
-							neutrality = {
-								popularity = 5
-							}
-							democratic = {
-								popularity = 5
-							}
-							fascism = {
-								popularity = 90
-							}
-							communism = {
-								popularity = 0
-							}
-						}
 					}
 					create_country_leader = {
 						name = "Josef Terboven"

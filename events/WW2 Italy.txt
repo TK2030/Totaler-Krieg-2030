@@ -122,16 +122,13 @@ country_event = {
 		GER = {country_event = { hours = 3 id = ww2germany.1 } }
 		ITA = {country_event = { days = 7 id = ww2italy.0 } }
 		
+		set_popularities = {
+				democratic = 60
+				}
 		
 		set_politics = {
 		ruling_party = democratic
 		elections_allowed = no
-		
-		parties = {
-		democratic = { 
-			popularity = 60
-		} 
-		}
 		}
 		
 	create_country_leader = {

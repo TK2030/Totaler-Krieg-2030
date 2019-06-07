@@ -113,25 +113,14 @@ country_event = {
 			}
 			hidden_effect = {			
 				set_politics = {
-					parties = {
-						neutrality = { 
-							popularity = 73.1
-						}
-
-						democratic = {
-							popularity  = 17.6
-						}
-
-						communism = {
-							popularity = 7.7
-						}
-
-						fascism = {
-							popularity = 1.6
-						}				
-					}
 					ruling_party = neutrality
 				}
+				set_popularities = {
+					communism = 72
+					democratic = 18
+					communism = 8
+					fascism = 2
+					}
 			}
 		}
 		else = {

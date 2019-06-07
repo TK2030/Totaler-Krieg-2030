@@ -132,23 +132,6 @@ country_event = { # Guarantees
 			}
 			set_politics = {
 				ruling_party = democratic
-				#parties = {
-				#	neutrality = { 
-				#		popularity = temp_ice_d_pop
-				#	}
-				#	
-				#	democratic = {
-				#		popularity = temp_ice_n_pop
-				#	}
-#
-#					fascism = {
-#						popularity = temp_ice_f_pop
-#					}
-#					
-#					communism = {
-#						popularity = temp_ice_c_pop
-#					}
-#				}
 			}
 		}
 	}

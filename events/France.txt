@@ -386,6 +386,7 @@ country_event = {
 		name = france.14.a
 		ai_chance = {
 			factor = 50
+			modifier = { factor = 0 has_global_flag = EAI_aggressive_GER }
 		}
 		trigger = {
 			has_government = fascism
@@ -396,10 +397,6 @@ country_event = {
 			set_cosmetic_tag = FRA_FREE
 		}
 		# German Occupation Zone
-		if = {
-		limit = { 793 = { owner = { original_tag = FRA } } }
-		set_state_controller = 793
-		}
 		if = {
 			limit = { 28 = { owner = { original_tag = FRA } } }
 			set_state_controller = 28
@@ -653,22 +650,20 @@ country_event = {
 			limit = { original_tag = FRA has_government = fascism }
 			ROOT = { puppet = PREV }
 			set_capital = 26
+			set_popularities = {
+				fascism = 76
+				democratic = 22
+				communism = 2
+				}
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no
-				parties = {
-					democratic = { 
-						popularity = 22
-					}
-
-					fascism = {
-						popularity = 76
-					}
-					
-					communism = {
-						popularity = 2
-					}
+			}
+			every_unit_leader = {
+				limit = {
+					has_id = 101
 				}
+				set_nationality = FRA
 			}
 			# FRA Player Switches to Vichy
 			if = {
@@ -696,10 +691,6 @@ country_event = {
 			set_cosmetic_tag = FRA_FREE
 		}
 		# German Occupation Zone
-		if = {
-		limit = { 793 = { owner = { original_tag = FRA } } }
-		set_state_controller = 793
-		}
 		if = {
 			limit = { 28 = { owner = { original_tag = FRA } } }
 			set_state_controller = 28
@@ -952,25 +943,15 @@ country_event = {
 			limit = { original_tag = FRA has_government = neutrality }
 			ROOT = { puppet = PREV }
 			set_capital = 26
+			set_popularities = {
+				fascism = 16
+				democratic = 22
+				communism = 2
+				neutrality = 60
+				}
 			set_politics = {
 				ruling_party = neutrality
 				elections_allowed = no
-				parties = {
-					democratic = { 
-						popularity = 22
-					}
-
-					neutrality = {
-						popularity = 60
-					}
-					fascism = {
-						popularity = 16
-					}
-					
-					communism = {
-						popularity = 2
-					}
-				}
 			}
 			# FRA Player Switches to Vichy
 			if = {
@@ -1117,7 +1098,16 @@ country_event = {
 		custom_effect_tooltip = france.20.a_tt
 		set_country_flag = france_de_gaulle
 		hidden_effect =  {
-			retire_country_leader = yes
+			create_country_leader = {
+				name = "Charles de Gaulle"
+				desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+				picture = "Portrait_France_Charles_De_Gaulle.dds"
+				expire = "1965.1.1"
+				ideology = conservatism
+				traits = {
+					
+				}
+			}
 		}
 		name = france.20.a
 	}
@@ -1569,9 +1559,9 @@ country_event = {
 	id = france.29
 	title = france.29.t
 	desc = france.29.d
-	picture = GFX_report_event_sign_treaty2
+	picture = GFX_report_event_generic_sign_treaty2
 
-	is_triggered_only	= yes
+	is_triggered_only = yes
 
 	option = {
 		name = france.29.a
@@ -1703,23 +1693,14 @@ country_event = {
 					has_government = democratic
 				}
 				FRA = {
+				set_popularities = {
+				fascism = 20
+				democratic = 60
+				communism = 20
+				}	
 					set_politics = {
 						ruling_party = democratic
 						elections_allowed = yes
-						parties = {
-							democratic = { 
-								popularity = 60
-							}
-							neutrality = {
-								popularity = 0
-							}
-							fascism = {
-								popularity = 20
-							}
-							communism = {
-								popularity = 20
-							}
-						}
 					}
 				}
 			}
@@ -1728,23 +1709,15 @@ country_event = {
 					has_government = fascism
 				}
 				FRA = {
+				set_popularities = {
+				fascism = 60
+				democratic = 20
+				communism = 20
+				}
 					set_politics = {
 						ruling_party = fascism
 						elections_allowed = no
-						parties = {
-							democratic = { 
-								popularity = 20
-							}
-							neutrality = {
-								popularity = 0
-							}
-							fascism = {
-								popularity = 60
-							}
-							communism = {
-								popularity = 20
-							}
-						}
+				
 					}
 				}
 			}
@@ -1753,23 +1726,14 @@ country_event = {
 					has_government = communism
 				}
 				FRA = {
+				set_popularities = {
+				fascism = 20
+				democratic = 20
+				communism = 60
+				}
 					set_politics = {
 						ruling_party = communism
 						elections_allowed = no
-						parties = {
-							democratic = { 
-								popularity = 20
-							}
-							neutrality = {
-								popularity = 0
-							}
-							fascism = {
-								popularity = 20
-							}
-							communism = {
-								popularity = 60
-							}
-						}
 					}
 				}
 			}
@@ -1778,23 +1742,15 @@ country_event = {
 					has_government = neutrality
 				}
 				FRA = {
+				set_popularities = {
+				fascism = 15
+				democratic = 15
+				communism = 15
+				neutrality = 55
+				}
 					set_politics = {
 						ruling_party = neutrality
 						elections_allowed = no
-						parties = {
-							democratic = { 
-								popularity = 15
-							}
-							neutrality = {
-								popularity = 55
-							}
-							fascism = {
-								popularity = 15
-							}
-							communism = {
-								popularity = 15
-							}
-						}
 					}
 				}
 			}

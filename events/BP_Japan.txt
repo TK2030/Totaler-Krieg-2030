@@ -997,23 +997,15 @@ country_event = {
 						is_in_faction_with = JAP
 					}
 					leave_faction = yes
+				}
+				set_popularities = {
+				neutrality = 76
+				democratic = 22
+				communism = 2
 				}				
 				set_politics = {
 					ruling_party = neutrality
 					elections_allowed = no
-					parties = {
-						democratic = { 
-							popularity = 22
-						}
-
-						neutrality = {
-							popularity = 76
-						}
-						
-						communism = {
-							popularity = 2
-						}
-					}
 				}			
 				create_country_leader = {
 					name = "Khoja Niyaz"

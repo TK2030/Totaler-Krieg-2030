@@ -132,22 +132,14 @@ country_event = {
 			name = ARG_neutrality_party_gou
 		}
 		set_country_flag = ARG_gou_coup
+		set_popularities = {
+			neutrality = 80
+			democratic = 7
+			fascism = 5
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = neutrality
-			parties = {
-				neutrality = {
-					popularity = 80
-				}
-				democratic = {
-					popularity = 7
-				}
-				fascism = {
-					popularity = 5
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 	option = {
@@ -248,22 +240,14 @@ country_event = {
 		}
 		set_country_flag = ARG_peron_wins
 		add_ideas = {ARG_pj}
+		set_popularities = {
+			neutrality = 5
+			democratic = 7
+			fascism = 80
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = fascism
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 7
-				}
-				fascism = {
-					popularity = 80
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 	option = {
@@ -292,22 +276,14 @@ country_event = {
 			ideology = liberalism
 			traits = {}
 		}
+		set_popularities = {
+			neutrality = 5
+			democratic = 80
+			fascism = 7
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = democratic
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 80
-				}
-				fascism = {
-					popularity = 7
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 }
@@ -366,22 +342,14 @@ country_event = {
 			long_name = ARG_fascism_party_PJ_long
 			name = ARG_fascism_party_PJ
 		}
+		set_popularities = {
+			neutrality = 5
+			democratic = 7
+			fascism = 80
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = fascism
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 7
-				}
-				fascism = {
-					popularity = 80
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 	option = {
@@ -411,22 +379,14 @@ country_event = {
 			ideology = liberalism
 			traits = {}
 		}
+		set_popularities = {
+			neutrality = 5
+			democratic = 80
+			fascism = 7
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = democratic
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 80
-				}
-				fascism = {
-					popularity = 7
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 	option = {
@@ -461,22 +421,14 @@ country_event = {
 			long_name = ARG_democratic_party_pdn_long
 			name = ARG_democratic_party_pdn
 		}
+		set_popularities = {
+			neutrality = 5
+			democratic = 80
+			fascism = 7
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = democratic
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 80
-				}
-				fascism = {
-					popularity = 7
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 	option = {
@@ -511,22 +463,14 @@ country_event = {
 			long_name = ARG_democratic_party_ps_long
 			name = ARG_democratic_party_ps
 		}
+		set_popularities = {
+			neutrality = 5
+			democratic = 80
+			fascism = 7
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = democratic
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 80
-				}
-				fascism = {
-					popularity = 7
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 }
@@ -576,22 +520,14 @@ country_event = {
 			name = ARG_neutrality_party_revlibertadora
 		}
 		set_country_flag = ARG_revolucion_libertadora
+		set_popularities = {
+			democratic = 5
+			neutrality = 80
+			fascism = 7
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = neutrality
-			parties = {
-				neutrality = {
-					popularity = 80
-				}
-				democratic = {
-					popularity = 7
-				}
-				fascism = {
-					popularity = 5
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 	option = {
@@ -685,22 +621,11 @@ country_event = {
 			name = ARG_fascism_party_arggalemp
 		}
 		load_focus_tree = argentinian_justo_focus
+		set_popularities = {
+			fascism = 100
+			}
 		set_politics = {
 			ruling_party = fascism
-			parties = {
-				neutrality = {
-					popularity = 0
-				}
-				democratic = {
-					popularity = 0
-				}
-				fascism = {
-					popularity = 100
-				}
-				communism = {
-					popularity = 0
-				}
-			}
 		}
 	}
 }
@@ -858,22 +783,14 @@ country_event = { #Strong Leader
 		}
 		add_ideas = {ARG_upa}
 		kill_country_leader = yes
+		set_popularities = {
+			democratic = 20
+			neutrality = 2
+			fascism = 70
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = fascism
-			parties = {
-				neutrality = {
-					popularity = 2
-				}
-				democratic = {
-					popularity = 20
-				}
-				fascism = {
-					popularity = 70
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 }
@@ -963,22 +880,13 @@ country_event = { #Communist takeover
 		}
 		set_country_flag = ARG_ghioldi_wins
 		add_ideas = {ARG_pc}
+		set_popularities = {
+			democratic = 15
+			fascism = 15
+			communism = 70
+			}
 		set_politics = {
 			ruling_party = communism
-			parties = {
-				neutrality = {
-					popularity = 0
-				}
-				democratic = {
-					popularity = 15
-				}
-				fascism = {
-					popularity = 15
-				}
-				communism = {
-					popularity = 70
-				}
-			}
 		}
 		set_cosmetic_tag = argcommie
 	}
@@ -1009,22 +917,13 @@ country_event = { #Ortiz wins
 			ideology = centrism
 			traits = {}
 		}
+		set_popularities = {
+			democratic = 15
+			fascism = 15
+			neutrality = 70
+			}
 		set_politics = {
 			ruling_party = neutrality
-			parties = {
-				neutrality = {
-					popularity = 70
-				}
-				democratic = {
-					popularity = 12
-				}
-				fascism = {
-					popularity = 9
-				}
-				communism = {
-					popularity = 9
-				}
-			}
 		}
 	}
 }
@@ -1050,22 +949,13 @@ country_event = { #Alvear wins
 			remove_ideas = {ARG_concordancia}
 		}
 		add_ideas = {ARG_ucr}
+		set_popularities = {
+			democratic = 70
+			fascism = 15
+			neutrality = 15
+			}
 		set_politics = {
 			ruling_party = democratic
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 80
-				}
-				fascism = {
-					popularity = 7
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 }
@@ -1105,22 +995,14 @@ country_event = { #Repetto wins
 			long_name = ARG_democratic_party_ps_long
 			name = ARG_democratic_party_ps
 		}
+		set_popularities = {
+			neutrality = 5
+			democratic = 80
+			fascism = 7
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = democratic
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 80
-				}
-				fascism = {
-					popularity = 7
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 }
@@ -1826,22 +1708,14 @@ country_event = {
 			ideology = liberalism
 			traits = {}
 		}
+		set_popularities = {
+			neutrality = 5
+			democratic = 80
+			fascism = 7
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = democratic
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 80
-				}
-				fascism = {
-					popularity = 7
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 	
@@ -1870,22 +1744,14 @@ country_event = {
 			long_name = ARG_democratic_party_ps_long
 			name = ARG_democratic_party_ps
 		}
+		set_popularities = {
+			neutrality = 5
+			democratic = 80
+			fascism = 7
+			communism = 8
+			}
 		set_politics = {
 			ruling_party = democratic
-			parties = {
-				neutrality = {
-					popularity = 5
-				}
-				democratic = {
-					popularity = 80
-				}
-				fascism = {
-					popularity = 7
-				}
-				communism = {
-					popularity = 8
-				}
-			}
 		}
 	}
 }

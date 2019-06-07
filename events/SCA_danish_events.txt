@@ -2472,24 +2472,14 @@ country_event = {
 						last_election = "1939.4.3"
 						election_frequency = 48
 						elections_allowed = yes
-						parties = {
-							neutrality = { 
-								popularity = 0
-							}
-							
-							democratic = {
-								popularity = 94.5
-							}
-
-							fascism = {
-								popularity = 3
-							}
-							
-							communism = {
-								popularity = 2.5
-							}
-						}					
 					}
+					
+					set_popularities = {
+					communism = 2
+					democratic = 95
+					fascism = 3
+					}
+					
 					hidden_effect = {
 						add_ideas = DEN_hidden_taken
 					}
@@ -2544,21 +2534,10 @@ country_event = {
 				set_politics = {
 					ruling_party = democratic
 					elections_allowed = no
-					parties = {
-						democratic = {
-							popularity = 100
-						}
-						neutrality = {
-							popularity = 0
-						}
-						communism = {
-							popularity = 0
-						}
-						fascism = {
-							popularity = 0
-						}
-					}
 				}
+				set_popularities = {
+					democratic = 100
+					}
 				set_stability = 1
 				set_war_support = 1
 				
@@ -2680,24 +2659,12 @@ country_event = {
 						ruling_party = democratic
 						last_election = "1939.4.3"
 						election_frequency = 48
-						elections_allowed = yes
-						parties = {
-							neutrality = { 
-								popularity = 0
-							}
-							
-							democratic = {
-								popularity = 94.5
-							}
-
-							fascism = {
-								popularity = 3
-							}
-							
-							communism = {
-								popularity = 2.5
-							}
-						}					
+						elections_allowed = yes				
+					}
+					set_popularities = {
+					communism = 2
+					democratic = 95
+					fascism = 3
 					}
 					hidden_effect = {
 						add_ideas = DEN_hidden_taken
@@ -2754,21 +2721,10 @@ country_event = {
 				set_politics = {
 					ruling_party = democratic
 					elections_allowed = no
-					parties = {
-						democratic = {
-							popularity = 100
-						}
-						neutrality = {
-							popularity = 0
-						}
-						communism = {
-							popularity = 0
-						}
-						fascism = {
-							popularity = 0
-						}
-					}
 				}
+				set_popularities = {
+					democratic = 100
+					}
 				set_stability = 1
 				set_war_support = 1
 				

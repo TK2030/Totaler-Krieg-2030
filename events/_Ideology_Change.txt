@@ -25,6 +25,8 @@ country_event = {
 	NOT = { has_government = monarchism }
 	}
 	
+	
+	
 	set_politics = {
 		parties = {
 		monarchism = { 

@@ -19,23 +19,12 @@ country_event = {
 			set_politics = {
 			ruling_party = neutrality
 			elections_allowed = no
-				parties = {
-					democratic = { 
-						popularity = 20
-					}
-
-					neutrality = {
-						popularity = 60
-					}
-					fascism = {
-						popularity = 20
-					}
-						
-					communism = {
-						popularity = 0
-					}
-				}
 			}
+	set_popularities = {
+	neutrality = 60
+	democratic = 20
+	fascism = 20
+	}
 			add_timed_idea = { idea = fascist_influence days = 50 }			
 			country_event = { days = 40 id = political.18 } 
 		}

@@ -39,12 +39,6 @@ country_event = {
 				add_core_of = GER
 			}
 		}
-		39 = {
-			if = {
-				limit = { is_owned_by = AUS }
-				add_core_of = GER
-			}
-		}
 		AUS = {
 			every_unit_leader = {
 				set_nationality = GER
@@ -3871,7 +3865,7 @@ country_event = {
 				}
 			}
 			modifier = {
-				factor = 0.1
+				factor = 10
 				any_other_country = {
 					is_major = yes
 					is_in_faction_with = POL
@@ -4220,7 +4214,7 @@ country_event = {
 	
 	option = {
 		name = germany.94.a
-		GER = { transfer_state = 102 transfer_state = 791 transfer_state = 792}
+		GER = { transfer_state = 102 }
 		set_country_flag = slovenia_acquired
 		hidden_effect = {
 			news_event = { id = news.163 hours = 6 }

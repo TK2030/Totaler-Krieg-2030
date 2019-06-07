@@ -3866,6 +3866,17 @@ country_event = {
 		}
 		
 		if = {
+			limit = { owns_state = 791 }
+			AUS = { transfer_state = 791 }
+		}
+		
+		if = {
+			limit = { owns_state = 792 }
+			AUS = { transfer_state = 792 }
+		}
+		
+		
+		if = {
 			limit = { has_idea = YUG_idea_croatian_opposition }
 			remove_ideas = YUG_idea_croatian_opposition
 		}
@@ -3905,6 +3916,15 @@ country_event = {
 			if = {
 				limit = { owns_state = 102 }
 				AUS = { transfer_state = 102 }
+			}
+			if = {
+			limit = { owns_state = 791 }
+			AUS = { transfer_state = 791 }
+			}
+		
+			if = {
+			limit = { owns_state = 792 }
+			AUS = { transfer_state = 792 }
 			}
 			if = {
 				limit = { owns_state = 103 }
@@ -3948,6 +3968,8 @@ country_event = {
 		effect_tooltip = {
 			AUS = {
 				add_state_claim = 102
+				add_state_claim = 791
+				add_state_claim = 792
 				add_state_claim = 103
 				add_state_claim = 109
 				add_state_claim = 104
@@ -4020,6 +4042,17 @@ country_event = {
 				transfer_state = 45
 			}
 			
+			if = {
+				limit = { YUG = { owns_state = 791 } }
+				transfer_state = 791
+			}
+			
+			if = {
+				limit = { YUG = { owns_state = 792 } }
+				transfer_state = 792
+			}
+			
+			
 			hidden_effect = {
 				YUG = {
 					if = {
@@ -4060,6 +4093,14 @@ country_event = {
 			if = {
 				limit = { YUG = { owns_state = 102 } }
 				transfer_state = 102
+			}
+			if = {
+				limit = { YUG = { owns_state = 791 } }
+				transfer_state = 791
+			}
+			if = {
+				limit = { YUG = { owns_state = 792 } }
+				transfer_state = 792
 			}
 			if = {
 				limit = { YUG = { owns_state = 103 } }
@@ -4192,6 +4233,17 @@ country_event = {
 						limit = { owns_state = 102 }
 						AUS = { transfer_state = 102 }
 					}
+					
+					if = {
+						limit = { owns_state = 791 }
+						AUS = { transfer_state = 791 }
+					}
+					
+					if = {
+						limit = { owns_state = 792 }
+						AUS = { transfer_state = 792 }
+					}
+					
 					if = {
 						limit = { owns_state = 103 }
 						AUS = { transfer_state = 103 }
@@ -4247,6 +4299,8 @@ country_event = {
 						add_state_claim = 104
 						add_state_claim = 45
 						add_state_claim = 163
+						add_state_claim = 791
+						add_state_claim = 792
 					}
 				}
 				AUS = { country_event = { id = EYE_aus.72 hours = 6 } }
@@ -4296,6 +4350,8 @@ country_event = {
 			add_state_claim = 104
 			add_state_claim = 45
 			add_state_claim = 163
+			add_state_claim = 791
+			add_state_claim = 792
 		}
 	}
 	country_event = { # Mediation
@@ -4347,7 +4403,7 @@ country_event = {
 			create_wargoal = {
 				target = YUG
 				type = take_state_focus
-				generator = { 102 103 109 104 45 163 }
+				generator = { 102 103 109 104 45 163 791 792 }
 			}
 			hidden_effect = {
 				clr_country_flag = AUS_refused_compromise_with_YUG

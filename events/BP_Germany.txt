@@ -3056,27 +3056,13 @@ country_event = {
 			hidden_effect = {
 		
 				add_ideas = neutrality_idea
-		
+				set_popularities = {
+				fascism = 5
+				democratic = 5
+				communism = 30
+				neutrality = 60
+				}
 				set_politics = {
-
-					parties = {
-						democratic = { 
-							popularity = 5
-						}
-
-						fascism = {
-							popularity = 5
-						}
-						
-						communism = {
-							popularity = 30
-							banned = yes #default is no
-						}
-						
-						neutrality = { 
-							popularity = 60
-						}
-					}
 					
 					ruling_party = neutrality
 					last_election = "1933.3.5"
