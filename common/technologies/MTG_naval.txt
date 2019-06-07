@@ -186,6 +186,11 @@ technologies = {
 			position = { x = 0 y = 19 }
 		}
 		
+		path = {
+			leads_to_tech = advanced_destroyer_mtg1
+			research_cost_coeff = 1
+		}
+		
 		ai_will_do = { #EAI
 			factor = 20
 			
@@ -691,6 +696,16 @@ technologies = {
 
 		start_year = 1944
 		
+		path = {
+			leads_to_tech = advanced_light_cruiser_mtg1
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = advanced_heavy_cruiser_mtg1
+			research_cost_coeff = 1
+		}
+		
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -1 y = 19 }
@@ -1073,6 +1088,11 @@ technologies = {
 			position = {  x = -1 y = 19 }
 		}
 		
+		path = {
+			leads_to_tech = advanced_battleship_mtg1
+			research_cost_coeff = 1
+		}
+		
 		ai_will_do = { #EAI
 			factor = 20
 			
@@ -1319,6 +1339,11 @@ technologies = {
 		research_cost = 1.5
 
 		start_year = 1944
+		
+		path = {
+			leads_to_tech = advanced_carrier_mtg1
+			research_cost_coeff = 1
+		}
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1659,6 +1684,7 @@ technologies = {
 			ship_torpedo_4
 		}
 		
+		
 
 
 		folder = {
@@ -1831,6 +1857,11 @@ technologies = {
 		folder = {
 			name = mtgnavalfolder
 			position = {  x = -2 y = 19 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_submarine_mtg1
+			research_cost_coeff = 1
 		}
 		
 		ai_will_do = { #EAI
@@ -3697,4 +3728,973 @@ technologies = {
 			always = no
 		}
 	}
+	
+	#################### TOTALER KRIEG ##########
+	
+	advanced_destroyer_mtg1 = { 
+
+		enable_equipments = { 
+			destroyer_5
+		}
+		
+		research_cost = 2
+
+		start_year = 1960
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 25 }
+		}
+		
+		
+		path = {
+			leads_to_tech = advanced_destroyer_mtg2
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1954.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_DD_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_destroyer_mtg2 = { 
+
+		enable_equipments = { 
+			destroyer_6
+		}
+		
+		research_cost = 2
+
+		start_year = 1975
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 31 }
+		}
+		
+		
+		path = {
+			leads_to_tech = advanced_destroyer_mtg3
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1969.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_DD_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_destroyer_mtg3 = { 
+
+		enable_equipments = { 
+			destroyer_7
+		}
+		
+		research_cost = 2
+
+		start_year = 1990
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 37 }
+		}
+		
+		
+		path = {
+			leads_to_tech = advanced_destroyer_mtg4
+			research_cost_coeff = 1
+		}
+		
+		
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1984.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_DD_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_destroyer_mtg4 = { 
+
+		enable_equipments = { 
+			destroyer_8
+		}
+		
+		research_cost = 2
+
+		start_year = 2005
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 43 }
+		}
+		
+		
+		path = {
+			leads_to_tech = advanced_destroyer_mtg5
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1999.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_DD_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_destroyer_mtg5 = { 
+
+		enable_equipments = { 
+			destroyer_9
+		}
+		
+		research_cost = 2
+
+		start_year = 2020
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 49 }
+		}
+		
+		
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 2014.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_DD_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+
+	
+	advanced_light_cruiser_mtg1 = { 
+
+		enable_equipments = { 
+			light_cruiser_5
+		}
+		
+		research_cost = 2
+
+		start_year = 1960
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 25 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_light_cruiser_mtg2
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1954.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CL_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_light_cruiser_mtg2 = { 
+
+		enable_equipments = { 
+			light_cruiser_6
+		}
+		
+		research_cost = 2
+
+		start_year = 1975
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 31 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_light_cruiser_mtg3
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1969.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CL_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_light_cruiser_mtg3 = { 
+
+		enable_equipments = { 
+			light_cruiser_7
+		}
+		
+		research_cost = 2
+
+		start_year = 1990
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 37 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_light_cruiser_mtg4
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1984.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CL_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_light_cruiser_mtg4 = { 
+
+		enable_equipments = { 
+			light_cruiser_8
+		}
+		
+		research_cost = 2
+
+		start_year = 2005
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 43 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_light_cruiser_mtg5
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1999.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CL_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_light_cruiser_mtg5 = { 
+
+		enable_equipments = { 
+			light_cruiser_9
+		}
+		
+		research_cost = 2
+
+		start_year = 2020
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 49 }
+		}
+		
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 2014.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CL_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+
+	
+	advanced_heavy_cruiser_mtg1 = { 
+
+		enable_equipments = { 
+			heavy_cruiser_5
+		}
+		
+		research_cost = 2
+
+		start_year = 1960
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 25 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_heavy_cruiser_mtg2
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1954.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CA_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_heavy_cruiser_mtg2 = { 
+
+		enable_equipments = { 
+			heavy_cruiser_6
+		}
+		
+		research_cost = 2
+
+		start_year = 1975
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 31 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_heavy_cruiser_mtg3
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1969.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CA_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_heavy_cruiser_mtg3 = { 
+
+		enable_equipments = { 
+			heavy_cruiser_7
+		}
+		
+		research_cost = 2
+
+		start_year = 1990
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 37 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_heavy_cruiser_mtg4
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1984.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CA_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_heavy_cruiser_mtg4 = { 
+
+		enable_equipments = { 
+			heavy_cruiser_8
+		}
+		
+		research_cost = 2
+
+		start_year = 2005
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 43 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_heavy_cruiser_mtg5
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1999.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CA_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_heavy_cruiser_mtg5 = { 
+
+		enable_equipments = { 
+			heavy_cruiser_9
+		}
+		
+		research_cost = 2
+
+		start_year = 2020
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 49 }
+		}
+		
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 2014.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CA_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	
+	advanced_battleship_mtg1 = { 
+
+		enable_equipments = { 
+			battleship_5
+		}
+		
+		research_cost = 2
+
+		start_year = 1960
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = 25 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_battleship_mtg2
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1954.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_BB_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_battleship_mtg2 = { 
+
+		enable_equipments = { 
+			battleship_6
+		}
+		
+		research_cost = 2
+
+		start_year = 1975
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = 31 }
+		}
+		
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1969.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_BB_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+
+	
+	advanced_carrier_mtg1 = { 
+
+		enable_equipments = { 
+			carrier_5
+		}
+		
+		research_cost = 2
+
+		start_year = 1960
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = 25 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_carrier_mtg2
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1954.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CV_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_carrier_mtg2 = { 
+
+		enable_equipments = { 
+			carrier_6
+		}
+		
+		research_cost = 2
+
+		start_year = 1975
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = 31 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_carrier_mtg3
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1969.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CV_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_carrier_mtg3 = { 
+
+		enable_equipments = { 
+			carrier_7
+		}
+		
+		research_cost = 2
+
+		start_year = 1990
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = 37 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_carrier_mtg4
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1984.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CV_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_carrier_mtg4 = { 
+
+		enable_equipments = { 
+			carrier_8
+		}
+		
+		research_cost = 2
+
+		start_year = 2005
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = 43 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_carrier_mtg5
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1999.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CV_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_carrier_mtg5 = { 
+
+		enable_equipments = { 
+			carrier_9
+		}
+		
+		research_cost = 2
+
+		start_year = 2020
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -1 y = 49 }
+		}
+		
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 2014.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_CV_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+
+	
+	advanced_submarine_mtg1 = { 
+
+		enable_equipments = { 
+			submarine_5
+		}
+		
+		research_cost = 2
+
+		start_year = 1960
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 25 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_submarine_mtg2
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1954.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_SS_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_submarine_mtg2 = { 
+
+		enable_equipments = { 
+			submarine_6
+		}
+		
+		research_cost = 2
+
+		start_year = 1975
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 31 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_submarine_mtg3
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1969.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_SS_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_submarine_mtg3 = { 
+
+		enable_equipments = { 
+			submarine_7
+		}
+		
+		research_cost = 2
+
+		start_year = 1990
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 37 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_submarine_mtg4
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1984.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_SS_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_submarine_mtg4 = { 
+
+		enable_equipments = { 
+			submarine_8
+		}
+		
+		research_cost = 2
+
+		start_year = 2005
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 43 }
+		}
+		
+		path = {
+			leads_to_tech = advanced_submarine_mtg5
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 1999.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_SS_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	advanced_submarine_mtg5 = { 
+
+		enable_equipments = { 
+			submarine_9
+		}
+		
+		research_cost = 2
+
+		start_year = 2020
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = -2 y = 49 }
+		}
+		
+		
+		ai_will_do = { #EAI
+			factor = 1
+
+			#DATE
+			modifier = { factor = 0 date < 2014.6.1 }
+			
+			#WEIGHT
+			modifier = { factor = 40 EAI_SS_tech_focus = yes }
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+		
+	
+	
 }
